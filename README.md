@@ -9,16 +9,21 @@ upgrading required. Paste, stamp, feed it stacked turbo belts.
 - **[Raynquist's balancer book (fall 2025)](https://github.com/raynquist/balancer)** — the canonical collection, on top
 - **[ChocPaint's BELT BALANCER COMPENDIUM V30.77](https://factoriobin.com/post/vqf3io)** — every variant, size and shape, below
 
+ChocPaint's compendium includes many designs sourced from raynquist's book.
+Those are **deduplicated** — each design appears once, under raynquist's
+latest version on top. ChocPaint-unique variants (different footprints, lane
+versions, sizes raynquist doesn't carry) all remain in the lower book.
+
 <p align="center">
-  <a href="https://factoriobin.com/post/7c5sfy"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/80v0qc"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 
 | | |
 |---|---|
-| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/7c5sfy)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
+| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/80v0qc)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
 | Books individually | [raynquist turbo](strings/raynquist-fall-2025-turbo.txt) · [chocpaint turbo](strings/chocpaint-v3077-turbo.txt) · [raynquist original](strings/raynquist-fall-2025-original.txt) · [chocpaint original](strings/chocpaint-v3077-original.txt) |
-| Blueprints | 401 balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
+| Blueprints | 303 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
 | Renders | Every balancer rendered below (Factorio 2.1.11 sprites, dirt terrain) |
 
 ---
@@ -367,19 +372,12 @@ UT unmarked
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
 | <img src="images/chocpaint__1-X__1-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.jpg" width="360"> | **1-1 [3x3] (UT, Lanesignal alert, Straight)**<br>[`bp`](blueprints/chocpaint__1-X__1-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt) | **1 → 1**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>straight-through |
-| <img src="images/chocpaint__1-X__1-1_3x5_UT_Lane_Straight_virtual-signal_signal-radioactivity.jpg" width="360"> | **1-1 [3x5] (UT, Lane, Straight, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__1-X__1-1_3x5_UT_Lane_Straight_virtual-signal_signal-radioactivity.txt) | **1 → 1**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>lane-balanced<br>straight-through |
 | <img src="images/chocpaint__1-X__1-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.jpg" width="360"> | **1-1 [2x3] (UT, Lanesignal alert, Corner)**<br>[`bp`](blueprints/chocpaint__1-X__1-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt) | **1 → 1**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>output turns 90° |
-| <img src="images/chocpaint__1-X__1-1_4x3_UT_Lane_Corner_virtual-signal_signal-radioactivity.jpg" width="360"> | **1-1 [4x3] (UT, Lane, Corner, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__1-X__1-1_4x3_UT_Lane_Corner_virtual-signal_signal-radioactivity.txt) | **1 → 1**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>lane-balanced<br>output turns 90° |
 | <img src="images/chocpaint__1-X__1-2_2x1_UT.jpg" width="360"> | **1-2 [2x1] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-2_2x1_UT.txt) | **1 → 2**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>Ha ha |
 | <img src="images/chocpaint__1-X__1-2_3x4_UT_Lane_virtual-signal_signal-alert.jpg" width="360"> | **1-2 [3x4] (UT, Lanesignal alert)**<br>[`bp`](blueprints/chocpaint__1-X__1-2_3x4_UT_Lane_virtual-signal_signal-alert.txt) | **1 → 2**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 | <img src="images/chocpaint__1-X__1-2_3x6_UT_Lane_virtual-signal_signal-radioactivity.jpg" width="360"> | **1-2 [3x6] (UT, Lane, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__1-X__1-2_3x6_UT_Lane_virtual-signal_signal-radioactivity.txt) | **1 → 2**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>lane-balanced |
-| <img src="images/chocpaint__1-X__1-3_4x4_UT.jpg" width="360"> | **1-3 [4x4] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-3_4x4_UT.txt) | **1 → 3**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
-| <img src="images/chocpaint__1-X__1-4_4x2_UT.jpg" width="360"> | **1-4 [4x2] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-4_4x2_UT.txt) | **1 → 4**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 | <img src="images/chocpaint__1-X__1-5_5x6_UT.jpg" width="360"> | **1-5 [5x6] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-5_5x6_UT.txt) | **1 → 5**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
-| <img src="images/chocpaint__1-X__1-6_6x4_UT.jpg" width="360"> | **1-6 [6x4] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-6_6x4_UT.txt) | **1 → 6**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 | <img src="images/chocpaint__1-X__1-7_7x5_UT.jpg" width="360"> | **1-7 [7x5] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-7_7x5_UT.txt) | **1 → 7**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
-| <img src="images/chocpaint__1-X__1-8_8x3_UT.jpg" width="360"> | **1-8 [8x3] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-8_8x3_UT.txt) | **1 → 8**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
-| <img src="images/chocpaint__1-X__1-9_9x7_UT.jpg" width="360"> | **1-9 [9x7] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-9_9x7_UT.txt) | **1 → 9**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 | <img src="images/chocpaint__1-X__1-10_10x6_UT_Fractal.jpg" width="360"> | **1-10 [10x6] (UT, Fractal)**<br>[`bp`](blueprints/chocpaint__1-X__1-10_10x6_UT_Fractal.txt) | **1 → 10**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput<br>fractal design |
 
 ### 2-X
@@ -389,19 +387,9 @@ UT unmarked
 | <img src="images/chocpaint__2-X__2-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.jpg" width="360"> | **2-1 [3x3] (UT, Lanesignal alert, Straight)**<br>[`bp`](blueprints/chocpaint__2-X__2-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt) | **2 → 1**<br>2 stacked turbo belts<br>≈ 480 items/s | unlimited throughput<br>straight-through |
 | <img src="images/chocpaint__2-X__2-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.jpg" width="360"> | **2-1 [2x3] (UT, Lanesignal alert, Corner)**<br>[`bp`](blueprints/chocpaint__2-X__2-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt) | **2 → 1**<br>2 stacked turbo belts<br>≈ 480 items/s | unlimited throughput<br>output turns 90° |
 | <img src="images/chocpaint__2-X__2-2_2x1_UT.jpg" width="360"> | **2-2 [2x1] (UT)**<br>[`bp`](blueprints/chocpaint__2-X__2-2_2x1_UT.txt) | **2 → 2**<br>2 stacked turbo belts<br>≈ 480 items/s | unlimited throughput<br>Ha ha |
-| <img src="images/chocpaint__2-X__2-2_3x6_Lane_virtual-signal_signal-radioactivity.jpg" width="360"> | **2-2 [3x6] (Lane, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__2-X__2-2_3x6_Lane_virtual-signal_signal-radioactivity.txt) | **2 → 2**<br>2 stacked turbo belts<br>≈ 480 items/s | lane-balanced |
 | <img src="images/chocpaint__2-X__2-2_2x12_Lane_Inline_virtual-signal_signal-radioactivity.jpg" width="360"> | **2-2 [2x12] (Lane, Inline, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__2-X__2-2_2x12_Lane_Inline_virtual-signal_signal-radioactivity.txt) | **2 → 2**<br>2 stacked turbo belts<br>≈ 480 items/s | lane-balanced<br>inline |
-| <img src="images/chocpaint__2-X__2-2_4x4_Lane_Corner_virtual-signal_signal-radioactivity.jpg" width="360"> | **2-2 [4x4] (Lane, Corner, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__2-X__2-2_4x4_Lane_Corner_virtual-signal_signal-radioactivity.txt) | **2 → 2**<br>2 stacked turbo belts<br>≈ 480 items/s | lane-balanced<br>output turns 90° |
-| <img src="images/chocpaint__2-X__2-3_4x6.jpg" width="360"> | **2-3 [4x6]**<br>[`bp`](blueprints/chocpaint__2-X__2-3_4x6.txt) | **2 → 3**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
-| <img src="images/chocpaint__2-X__2-4_4x2.jpg" width="360"> | **2-4 [4x2]**<br>[`bp`](blueprints/chocpaint__2-X__2-4_4x2.txt) | **2 → 4**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/chocpaint__2-X__2-4_4x3_UT_virtual-signal_signal-alert_Compact.jpg" width="360"> | **2-4 [4x3] (UTsignal alert, Compact)**<br>[`bp`](blueprints/chocpaint__2-X__2-4_4x3_UT_virtual-signal_signal-alert_Compact.txt) | **2 → 4**<br>2 stacked turbo belts<br>≈ 480 items/s | compact<br>UT, assuming both inputs are already balanced |
-| <img src="images/chocpaint__2-X__2-4_4x4_UT.jpg" width="360"> | **2-4 [4x4] (UT)**<br>[`bp`](blueprints/chocpaint__2-X__2-4_4x4_UT.txt) | **2 → 4**<br>2 stacked turbo belts<br>≈ 480 items/s | unlimited throughput |
-| <img src="images/chocpaint__2-X__2-5_5x7.jpg" width="360"> | **2-5 [5x7]**<br>[`bp`](blueprints/chocpaint__2-X__2-5_5x7.txt) | **2 → 5**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
-| <img src="images/chocpaint__2-X__2-6_8x4.jpg" width="360"> | **2-6 [8x4]**<br>[`bp`](blueprints/chocpaint__2-X__2-6_8x4.txt) | **2 → 6**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/chocpaint__2-X__2x7_7x6.jpg" width="360"> | **2x7 [7x6]**<br>[`bp`](blueprints/chocpaint__2-X__2x7_7x6.txt) | **2 → 7**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
-| <img src="images/chocpaint__2-X__2-8_8x3.jpg" width="360"> | **2-8 [8x3]**<br>[`bp`](blueprints/chocpaint__2-X__2-8_8x3.txt) | **2 → 8**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
-| <img src="images/chocpaint__2-X__2-8_8x6_UT.jpg" width="360"> | **2-8 [8x6] (UT)**<br>[`bp`](blueprints/chocpaint__2-X__2-8_8x6_UT.txt) | **2 → 8**<br>2 stacked turbo belts<br>≈ 480 items/s | unlimited throughput |
-| <img src="images/chocpaint__2-X__2-9_9x7.jpg" width="360"> | **2-9 [9x7]**<br>[`bp`](blueprints/chocpaint__2-X__2-9_9x7.txt) | **2 → 9**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/chocpaint__2-X__2-10_10x6_Fractal.jpg" width="360"> | **2-10 [10x6] (Fractal)**<br>[`bp`](blueprints/chocpaint__2-X__2-10_10x6_Fractal.txt) | **2 → 10**<br>2 stacked turbo belts<br>≈ 480 items/s | fractal design |
 
 ### 3-X
@@ -411,46 +399,25 @@ UT unmarked
 | <img src="images/chocpaint__3-X__3-1_4x5_UT.jpg" width="360"> | **3-1 [4x5] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-1_4x5_UT.txt) | **3 → 1**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
 | <img src="images/chocpaint__3-X__3-2_4x6_UT.jpg" width="360"> | **3-2 [4x6] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-2_4x6_UT.txt) | **3 → 2**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
 | <img src="images/chocpaint__3-X__3-3_5x6.jpg" width="360"> | **3-3 [5x6]**<br>[`bp`](blueprints/chocpaint__3-X__3-3_5x6.txt) | **3 → 3**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
-| <img src="images/chocpaint__3-X__3-3_5x7_UT.jpg" width="360"> | **3-3 [5x7] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-3_5x7_UT.txt) | **3 → 3**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
-| <img src="images/chocpaint__3-X__3-3_6x7_UT_Corner.jpg" width="360"> | **3-3 [6x7] (UT, Corner)**<br>[`bp`](blueprints/chocpaint__3-X__3-3_6x7_UT_Corner.txt) | **3 → 3**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput<br>output turns 90° |
-| <img src="images/chocpaint__3-X__3-3_7x7_Lane_virtual-signal_signal-radioactivity.jpg" width="360"> | **3-3 [7x7] (Lane, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__3-X__3-3_7x7_Lane_virtual-signal_signal-radioactivity.txt) | **3 → 3**<br>3 stacked turbo belts<br>≈ 720 items/s | lane-balanced |
-| <img src="images/chocpaint__3-X__3-4_7x7_UT.jpg" width="360"> | **3-4 [7x7] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-4_7x7_UT.txt) | **3 → 4**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
-| <img src="images/chocpaint__3-X__3-5_8x8.jpg" width="360"> | **3-5 [8x8]**<br>[`bp`](blueprints/chocpaint__3-X__3-5_8x8.txt) | **3 → 5**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
 | <img src="images/chocpaint__3-X__3-5_7x10_UT.jpg" width="360"> | **3-5 [7x10] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-5_7x10_UT.txt) | **3 → 5**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
-| <img src="images/chocpaint__3-X__3-6_7x5.jpg" width="360"> | **3-6 [7x5]**<br>[`bp`](blueprints/chocpaint__3-X__3-6_7x5.txt) | **3 → 6**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
-| <img src="images/chocpaint__3-X__3-6_9x11_UT.jpg" width="360"> | **3-6 [9x11] (UT)**<br>[`bp`](blueprints/chocpaint__3-X__3-6_9x11_UT.txt) | **3 → 6**<br>3 stacked turbo belts<br>≈ 720 items/s | unlimited throughput |
 | <img src="images/chocpaint__3-X__3-7_9x7_Mid.jpg" width="360"> | **3-7 [9x7] (Mid)**<br>[`bp`](blueprints/chocpaint__3-X__3-7_9x7_Mid.txt) | **3 → 7**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
-| <img src="images/chocpaint__3-X__3-7_8x8_Side.jpg" width="360"> | **3-7 [8x8] (Side)**<br>[`bp`](blueprints/chocpaint__3-X__3-7_8x8_Side.txt) | **3 → 7**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
-| <img src="images/chocpaint__3-X__3-8_8x7.jpg" width="360"> | **3-8 [8x7]**<br>[`bp`](blueprints/chocpaint__3-X__3-8_8x7.txt) | **3 → 8**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
-| <img src="images/chocpaint__3-X__3-9_9x8.jpg" width="360"> | **3-9 [9x8]**<br>[`bp`](blueprints/chocpaint__3-X__3-9_9x8.txt) | **3 → 9**<br>3 stacked turbo belts<br>≈ 720 items/s | — |
 
 ### 4-X
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__4-X__4-1_4x2_UT.jpg" width="360"> | **4-1 [4x2] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-1_4x2_UT.txt) | **4 → 1**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
 | <img src="images/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Straight.jpg" width="360"> | **4-1 [4x4] (UT, Lanesignal alert, Straight)**<br>[`bp`](blueprints/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Straight.txt) | **4 → 1**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput<br>straight-through |
 | <img src="images/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Corner.jpg" width="360"> | **4-1 [4x4] (UT, Lanesignal alert, Corner)**<br>[`bp`](blueprints/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Corner.txt) | **4 → 1**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput<br>output turns 90° |
-| <img src="images/chocpaint__4-X__4-2_4x2.jpg" width="360"> | **4-2 [4x2]**<br>[`bp`](blueprints/chocpaint__4-X__4-2_4x2.txt) | **4 → 2**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
-| <img src="images/chocpaint__4-X__4-2_TU.jpg" width="360"> | **4-2 (TU)**<br>[`bp`](blueprints/chocpaint__4-X__4-2_TU.txt) | **4 → 2**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__4-X__4-3_6x6.jpg" width="360"> | **4-3 [6x6]**<br>[`bp`](blueprints/chocpaint__4-X__4-3_6x6.txt) | **4 → 3**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__4-X__4-3_7x7_UT.jpg" width="360"> | **4-3 [7x7] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-3_7x7_UT.txt) | **4 → 3**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
 | <img src="images/chocpaint__4-X__4-4_4x8_UT.jpg" width="360"> | **4-4 [4x8] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_4x8_UT.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
-| <img src="images/chocpaint__4-X__4-4_4x6_UT_Edge-In.jpg" width="360"> | **4-4 [4x6] (UT, Edge-In)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_4x6_UT_Edge-In.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
-| <img src="images/chocpaint__4-X__4-4_4x6_UT_Edge-Out.jpg" width="360"> | **4-4 [4x6] (UT, Edge-Out)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_4x6_UT_Edge-Out.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
-| <img src="images/chocpaint__4-X__4-4_6x7_UT_Corner_Inline.jpg" width="360"> | **4-4 [6x7] (UT, Corner, Inline)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_6x7_UT_Corner_Inline.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput<br>output turns 90°<br>inline |
 | <img src="images/chocpaint__4-X__4-4_6x7_UT_Corner_Compact-Tall.jpg" width="360"> | **4-4 [6x7] (UT, Corner, Compact-Tall)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_6x7_UT_Corner_Compact-Tall.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput<br>output turns 90° |
 | <img src="images/chocpaint__4-X__4-4_8x5_UT_Corner_Compact-Wide.jpg" width="360"> | **4-4 [8x5] (UT, Corner, Compact-Wide)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_8x5_UT_Corner_Compact-Wide.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput<br>output turns 90° |
 | <img src="images/chocpaint__4-X__4-4_6x8_Lane_Straight_virtual-signal_signal-alert_virtual-signal_signal-radioactivity.jpg" width="360"> | **4-4 [6x8] (Lane, Straight, signal alertsignal radioactivity)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_6x8_Lane_Straight_virtual-signal_signal-alert_virtual-signal_signal-radioactivity.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | lane-balanced<br>straight-through<br>Warning: Beware unconnected EW underground belts. |
 | <img src="images/chocpaint__4-X__4-4_4x13_Lane_Inline_virtual-signal_signal-radioactivity.jpg" width="360"> | **4-4 [4x13] (Lane, Inline, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_4x13_Lane_Inline_virtual-signal_signal-radioactivity.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | lane-balanced<br>inline |
-| <img src="images/chocpaint__4-X__4-4_8x7_Lane_Corner_virtual-signal_signal-radioactivity.jpg" width="360"> | **4-4 [8x7] (Lane, Corner, signal radioactivity)**<br>[`bp`](blueprints/chocpaint__4-X__4-4_8x7_Lane_Corner_virtual-signal_signal-radioactivity.txt) | **4 → 4**<br>4 stacked turbo belts<br>≈ 960 items/s | lane-balanced<br>output turns 90° |
 | <img src="images/chocpaint__4-X__4-5_8x9.jpg" width="360"> | **4-5 [8x9]**<br>[`bp`](blueprints/chocpaint__4-X__4-5_8x9.txt) | **4 → 5**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
-| <img src="images/chocpaint__4-X__4-6_6x9.jpg" width="360"> | **4-6 [6x9]**<br>[`bp`](blueprints/chocpaint__4-X__4-6_6x9.txt) | **4 → 6**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__4-X__4-6_8x10_UT.jpg" width="360"> | **4-6 [8x10] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-6_8x10_UT.txt) | **4 → 6**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
-| <img src="images/chocpaint__4-X__4-7_9x7.jpg" width="360"> | **4-7 [9x7]**<br>[`bp`](blueprints/chocpaint__4-X__4-7_9x7.txt) | **4 → 7**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
-| <img src="images/chocpaint__4-X__4-8_8x4.jpg" width="360"> | **4-8 [8x4]**<br>[`bp`](blueprints/chocpaint__4-X__4-8_8x4.txt) | **4 → 8**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__4-X__4-8_8x10_UT.jpg" width="360"> | **4-8 [8x10] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-8_8x10_UT.txt) | **4 → 8**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
-| <img src="images/chocpaint__4-X__4-9_9x10.jpg" width="360"> | **4-9 [9x10]**<br>[`bp`](blueprints/chocpaint__4-X__4-9_9x10.txt) | **4 → 9**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__4-X__4-10_10x7_Unbalanced_Fractal.jpg" width="360"> | **4-10 [10x7] (Unbalanced, Fractal)**<br>[`bp`](blueprints/chocpaint__4-X__4-10_10x7_Unbalanced_Fractal.txt) | **4 → 10**<br>4 stacked turbo belts<br>≈ 960 items/s | not fully balanced<br>fractal design |
 | <img src="images/chocpaint__4-X__4-10_12x15_UT.jpg" width="360"> | **4-10 [12x15] (UT)**<br>[`bp`](blueprints/chocpaint__4-X__4-10_12x15_UT.txt) | **4 → 10**<br>4 stacked turbo belts<br>≈ 960 items/s | unlimited throughput |
 
@@ -458,15 +425,10 @@ UT unmarked
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__5-X__5-1_6x6_UT.jpg" width="360"> | **5-1 [6x6] (UT)**<br>[`bp`](blueprints/chocpaint__5-X__5-1_6x6_UT.txt) | **5 → 1**<br>5 stacked turbo belts<br>≈ 1,200 items/s | unlimited throughput |
 | <img src="images/chocpaint__5-X__5-2_5x7.jpg" width="360"> | **5-2 [5x7]**<br>[`bp`](blueprints/chocpaint__5-X__5-2_5x7.txt) | **5 → 2**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
 | <img src="images/chocpaint__5-X__5-3_8x8.jpg" width="360"> | **5-3 [8x8]**<br>[`bp`](blueprints/chocpaint__5-X__5-3_8x8.txt) | **5 → 3**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__5-X__5-4_8x9.jpg" width="360"> | **5-4 [8x9]**<br>[`bp`](blueprints/chocpaint__5-X__5-4_8x9.txt) | **5 → 4**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
 | <img src="images/chocpaint__5-X__5-5_7x10.jpg" width="360"> | **5-5 [7x10]**<br>[`bp`](blueprints/chocpaint__5-X__5-5_7x10.txt) | **5 → 5**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
 | <img src="images/chocpaint__5-X__5-5_5x15_Inline.jpg" width="360"> | **5-5 [5x15] (Inline)**<br>[`bp`](blueprints/chocpaint__5-X__5-5_5x15_Inline.txt) | **5 → 5**<br>5 stacked turbo belts<br>≈ 1,200 items/s | inline |
-| <img src="images/chocpaint__5-X__5-6_8x13.jpg" width="360"> | **5-6 [8x13]**<br>[`bp`](blueprints/chocpaint__5-X__5-6_8x13.txt) | **5 → 6**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__5-X__5-7_9x13_item_turbo-transport-belt.jpg" width="360"> | **5-7 [9x13] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__5-X__5-7_9x13_item_turbo-transport-belt.txt) | **5 → 7**<br>5 stacked turbo belts<br>≈ 1,200 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__5-X__5-8_8x12_item_turbo-transport-belt.jpg" width="360"> | **5-8 [8x12] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__5-X__5-8_8x12_item_turbo-transport-belt.txt) | **5 → 8**<br>5 stacked turbo belts<br>≈ 1,200 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__5-X__5-9_9x16_item_turbo-transport-belt.jpg" width="360"> | **5-9 [9x16] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__5-X__5-9_9x16_item_turbo-transport-belt.txt) | **5 → 9**<br>5 stacked turbo belts<br>≈ 1,200 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__5-X__5-10_10x11_Fractal_Unbalanced.jpg" width="360"> | **5-10 [10x11] (Fractal, Unbalanced)**<br>[`bp`](blueprints/chocpaint__5-X__5-10_10x11_Fractal_Unbalanced.txt) | **5 → 10**<br>5 stacked turbo belts<br>≈ 1,200 items/s | fractal design<br>not fully balanced |
 
@@ -475,19 +437,10 @@ UT unmarked
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
 | <img src="images/chocpaint__6-X__6-1_6x5_UT.jpg" width="360"> | **6-1 [6x5] (UT)**<br>[`bp`](blueprints/chocpaint__6-X__6-1_6x5_UT.txt) | **6 → 1**<br>6 stacked turbo belts<br>≈ 1,440 items/s | unlimited throughput |
-| <img src="images/chocpaint__6-X__6-2_7x5_UT.jpg" width="360"> | **6-2 [7x5] (UT)**<br>[`bp`](blueprints/chocpaint__6-X__6-2_7x5_UT.txt) | **6 → 2**<br>6 stacked turbo belts<br>≈ 1,440 items/s | unlimited throughput |
 | <img src="images/chocpaint__6-X__6-3_7x5.jpg" width="360"> | **6-3 [7x5]**<br>[`bp`](blueprints/chocpaint__6-X__6-3_7x5.txt) | **6 → 3**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__6-X__6-3_10x10_UT.jpg" width="360"> | **6-3 [10x10] (UT)**<br>[`bp`](blueprints/chocpaint__6-X__6-3_10x10_UT.txt) | **6 → 3**<br>6 stacked turbo belts<br>≈ 1,440 items/s | unlimited throughput |
-| <img src="images/chocpaint__6-X__6-4_6x9.jpg" width="360"> | **6-4 [6x9]**<br>[`bp`](blueprints/chocpaint__6-X__6-4_6x9.txt) | **6 → 4**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__6-X__6-4_8x11_UT.jpg" width="360"> | **6-4 [8x11] (UT)**<br>[`bp`](blueprints/chocpaint__6-X__6-4_8x11_UT.txt) | **6 → 4**<br>6 stacked turbo belts<br>≈ 1,440 items/s | unlimited throughput |
-| <img src="images/chocpaint__6-X__6-5_8x12.jpg" width="360"> | **6-5 [8x12]**<br>[`bp`](blueprints/chocpaint__6-X__6-5_8x12.txt) | **6 → 5**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__6-X__6-5_8x13.jpg" width="360"> | **6-5 [8x13]**<br>[`bp`](blueprints/chocpaint__6-X__6-5_8x13.txt) | **6 → 5**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
 | <img src="images/chocpaint__6-X__6-6_7x10_item_turbo-transport-belt.jpg" width="360"> | **6-6 [7x10] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__6-X__6-6_7x10_item_turbo-transport-belt.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__6-X__6-6_6x11_Inline_item_turbo-transport-belt.jpg" width="360"> | **6-6 [6x11] (Inline, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__6-X__6-6_6x11_Inline_item_turbo-transport-belt.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | inline<br>needs turbo transport belt+ |
-| <img src="images/chocpaint__6-X__6-6_9x9_Corner.jpg" width="360"> | **6-6 [9x9] (Corner)**<br>[`bp`](blueprints/chocpaint__6-X__6-6_9x9_Corner.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | output turns 90° |
 | <img src="images/chocpaint__6-X__6-6_9x13_Lane.jpg" width="360"> | **6-6 [9x13] (Lane)**<br>[`bp`](blueprints/chocpaint__6-X__6-6_9x13_Lane.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | lane-balanced |
 | <img src="images/chocpaint__6-X__6-7_9x13.jpg" width="360"> | **6-7 [9x13]**<br>[`bp`](blueprints/chocpaint__6-X__6-7_9x13.txt) | **6 → 7**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__6-X__6-8_7x11_Left.jpg" width="360"> | **6-8 [7x11] (Left)**<br>[`bp`](blueprints/chocpaint__6-X__6-8_7x11_Left.txt) | **6 → 8**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
 | <img src="images/chocpaint__6-X__6-8_8x11_Mid_item_turbo-transport-belt.jpg" width="360"> | **6-8 [8x11] (Mid, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__6-X__6-8_8x11_Mid_item_turbo-transport-belt.txt) | **6 → 8**<br>6 stacked turbo belts<br>≈ 1,440 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__6-X__6-9_9x14_item_turbo-transport-belt.jpg" width="360"> | **6-9 [9x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__6-X__6-9_9x14_item_turbo-transport-belt.txt) | **6 → 9**<br>6 stacked turbo belts<br>≈ 1,440 items/s | needs turbo transport belt+ |
 
@@ -495,18 +448,13 @@ UT unmarked
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__7-X__7-1_7x5_UT.jpg" width="360"> | **7-1 [7x5] (UT)**<br>[`bp`](blueprints/chocpaint__7-X__7-1_7x5_UT.txt) | **7 → 1**<br>7 stacked turbo belts<br>≈ 1,680 items/s | unlimited throughput |
 | <img src="images/chocpaint__7-X__7-2_7x5.jpg" width="360"> | **7-2 [7x5]**<br>[`bp`](blueprints/chocpaint__7-X__7-2_7x5.txt) | **7 → 2**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
 | <img src="images/chocpaint__7-X__7-3_9x8.jpg" width="360"> | **7-3 [9x8]**<br>[`bp`](blueprints/chocpaint__7-X__7-3_9x8.txt) | **7 → 3**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__7-X__7-4_9x7.jpg" width="360"> | **7-4 [9x7]**<br>[`bp`](blueprints/chocpaint__7-X__7-4_9x7.txt) | **7 → 4**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
 | <img src="images/chocpaint__7-X__7-5_9x13.jpg" width="360"> | **7-5 [9x13]**<br>[`bp`](blueprints/chocpaint__7-X__7-5_9x13.txt) | **7 → 5**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
 | <img src="images/chocpaint__7-X__7-6_9x13.jpg" width="360"> | **7-6 [9x13]**<br>[`bp`](blueprints/chocpaint__7-X__7-6_9x13.txt) | **7 → 6**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__7-X__7-7_9x10.jpg" width="360"> | **7-7 [9x10]**<br>[`bp`](blueprints/chocpaint__7-X__7-7_9x10.txt) | **7 → 7**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__7-X__7-7_7x12_Inline.jpg" width="360"> | **7-7 [7x12] (Inline)**<br>[`bp`](blueprints/chocpaint__7-X__7-7_7x12_Inline.txt) | **7 → 7**<br>7 stacked turbo belts<br>≈ 1,680 items/s | inline |
 | <img src="images/chocpaint__7-X__7-8_9x13_item_turbo-transport-belt.jpg" width="360"> | **7-8 [9x13] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__7-X__7-8_9x13_item_turbo-transport-belt.txt) | **7 → 8**<br>7 stacked turbo belts<br>≈ 1,680 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__7-X__7-8_8x14_item_turbo-transport-belt.jpg" width="360"> | **7-8 [8x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__7-X__7-8_8x14_item_turbo-transport-belt.txt) | **7 → 8**<br>7 stacked turbo belts<br>≈ 1,680 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__7-X__7-9_12x16_item_turbo-transport-belt.jpg" width="360"> | **7-9 [12x16] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__7-X__7-9_12x16_item_turbo-transport-belt.txt) | **7 → 9**<br>7 stacked turbo belts<br>≈ 1,680 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__7-X__7-10_10x18_item_turbo-transport-belt.jpg" width="360"> | **7-10 [10x18] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__7-X__7-10_10x18_item_turbo-transport-belt.txt) | **7 → 10**<br>7 stacked turbo belts<br>≈ 1,680 items/s | needs turbo transport belt+ |
 
 ### 8-X
 
@@ -514,24 +462,16 @@ UT unmarked
 |---|---|---|---|
 | <img src="images/chocpaint__8-X__8-1_8x4_UT_Lane_virtual-signal_signal-alert.jpg" width="360"> | **8-1 [8x4] (UT, Lanesignal alert)**<br>[`bp`](blueprints/chocpaint__8-X__8-1_8x4_UT_Lane_virtual-signal_signal-alert.txt) | **8 → 1**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput |
 | <img src="images/chocpaint__8-X__8-2_8x4_Lane_virtual-signal_signal-alert.jpg" width="360"> | **8-2 [8x4] (Lanesignal alert)**<br>[`bp`](blueprints/chocpaint__8-X__8-2_8x4_Lane_virtual-signal_signal-alert.txt) | **8 → 2**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-2_8x6_UT.jpg" width="360"> | **8-2 [8x6] (UT)**<br>[`bp`](blueprints/chocpaint__8-X__8-2_8x6_UT.txt) | **8 → 2**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput |
 | <img src="images/chocpaint__8-X__8-3_8x8.jpg" width="360"> | **8-3 [8x8]**<br>[`bp`](blueprints/chocpaint__8-X__8-3_8x8.txt) | **8 → 3**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-4_8x5.jpg" width="360"> | **8-4 [8x5]**<br>[`bp`](blueprints/chocpaint__8-X__8-4_8x5.txt) | **8 → 4**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-4_8x10_UT.jpg" width="360"> | **8-4 [8x10] (UT)**<br>[`bp`](blueprints/chocpaint__8-X__8-4_8x10_UT.txt) | **8 → 4**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput |
 | <img src="images/chocpaint__8-X__8-5_8x12.jpg" width="360"> | **8-5 [8x12]**<br>[`bp`](blueprints/chocpaint__8-X__8-5_8x12.txt) | **8 → 5**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
 | <img src="images/chocpaint__8-X__8-5_8x13_item_turbo-transport-belt.jpg" width="360"> | **8-5 [8x13] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-5_8x13_item_turbo-transport-belt.txt) | **8 → 5**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-6_8x11.jpg" width="360"> | **8-6 [8x11]**<br>[`bp`](blueprints/chocpaint__8-X__8-6_8x11.txt) | **8 → 6**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-7_8x14.jpg" width="360"> | **8-7 [8x14]**<br>[`bp`](blueprints/chocpaint__8-X__8-7_8x14.txt) | **8 → 7**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-8_8x10_item_turbo-transport-belt.jpg" width="360"> | **8-8 [8x10] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_8x10_item_turbo-transport-belt.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-8_8x15_Fractal.jpg" width="360"> | **8-8 [8x15] (Fractal)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_8x15_Fractal.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | fractal design |
 | <img src="images/chocpaint__8-X__8-8_8x16_UT_item_turbo-transport-belt.jpg" width="360"> | **8-8 [8x16] (UT, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_8x16_UT_item_turbo-transport-belt.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput<br>needs turbo transport belt+ |
-| <img src="images/chocpaint__8-X__8-8_9x10_Corner.jpg" width="360"> | **8-8 [9x10] (Corner)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_9x10_Corner.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | output turns 90° |
 | <img src="images/chocpaint__8-X__8-8_11x8_Edge-In.jpg" width="360"> | **8-8 [11x8] (Edge-In)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_11x8_Edge-In.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-8_11x8_Edge-Out.jpg" width="360"> | **8-8 [11x8] (Edge-Out)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_11x8_Edge-Out.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
 | <img src="images/chocpaint__8-X__8-8_11x8_Split-2.jpg" width="360"> | **8-8 [11x8] (Split-2)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_11x8_Split-2.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
 | <img src="images/chocpaint__8-X__8-8_10x15_UT_Split-2_item_turbo-transport-belt.jpg" width="360"> | **8-8 [10x15] (UT, Split-2, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_10x15_UT_Split-2_item_turbo-transport-belt.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-8_12x8_Split-4.jpg" width="360"> | **8-8 [12x8] (Split-4)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_12x8_Split-4.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__8-X__8-8_12x11_Lane_item_turbo-transport-belt.jpg" width="360"> | **8-8 [12x11] (Lane, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-8_12x11_Lane_item_turbo-transport-belt.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | lane-balanced<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-9_11x14_item_turbo-transport-belt.jpg" width="360"> | **8-9 [11x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-9_11x14_item_turbo-transport-belt.txt) | **8 → 9**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-9_9x17_item_turbo-transport-belt.jpg" width="360"> | **8-9 [9x17] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-9_9x17_item_turbo-transport-belt.txt) | **8 → 9**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__8-X__8-10_10x14_item_turbo-transport-belt.jpg" width="360"> | **8-10 [10x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-10_10x14_item_turbo-transport-belt.txt) | **8 → 10**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
@@ -542,23 +482,16 @@ UT unmarked
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__9-X__9-1_9x7_UT.jpg" width="360"> | **9-1 [9x7] (UT)**<br>[`bp`](blueprints/chocpaint__9-X__9-1_9x7_UT.txt) | **9 → 1**<br>9 stacked turbo belts<br>≈ 2,160 items/s | unlimited throughput |
 | <img src="images/chocpaint__9-X__9-2_10x7.jpg" width="360"> | **9-2 [10x7]**<br>[`bp`](blueprints/chocpaint__9-X__9-2_10x7.txt) | **9 → 2**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
 | <img src="images/chocpaint__9-X__9-3_10x8.jpg" width="360"> | **9-3 [10x8]**<br>[`bp`](blueprints/chocpaint__9-X__9-3_10x8.txt) | **9 → 3**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
 | <img src="images/chocpaint__9-X__9-4_9x10.jpg" width="360"> | **9-4 [9x10]**<br>[`bp`](blueprints/chocpaint__9-X__9-4_9x10.txt) | **9 → 4**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
-| <img src="images/chocpaint__9-X__9-5_9x16_item_turbo-transport-belt.jpg" width="360"> | **9-5 [9x16] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-5_9x16_item_turbo-transport-belt.txt) | **9 → 5**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__9-X__9-6_9x14_item_turbo-transport-belt.jpg" width="360"> | **9-6 [9x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-6_9x14_item_turbo-transport-belt.txt) | **9 → 6**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__9-X__9-7_12x17_item_turbo-transport-belt.jpg" width="360"> | **9-7 [12x17] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-7_12x17_item_turbo-transport-belt.txt) | **9 → 7**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__9-X__9-8_11x14_item_turbo-transport-belt.jpg" width="360"> | **9-8 [11x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-8_11x14_item_turbo-transport-belt.txt) | **9 → 8**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__9-X__9-9_11x14_item_turbo-transport-belt.jpg" width="360"> | **9-9 [11x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-9_11x14_item_turbo-transport-belt.txt) | **9 → 9**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__9-X__9-10_11x21_item_turbo-transport-belt.jpg" width="360"> | **9-10 [11x21] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__9-X__9-10_11x21_item_turbo-transport-belt.txt) | **9 → 10**<br>9 stacked turbo belts<br>≈ 2,160 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__9-X__9-12_12x16.jpg" width="360"> | **9-12 [12x16]**<br>[`bp`](blueprints/chocpaint__9-X__9-12_12x16.txt) | **9 → 12**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
 
 ### 10-X
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__10-X__10-8_10x14_item_turbo-transport-belt.jpg" width="360"> | **10-8 [10x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__10-X__10-8_10x14_item_turbo-transport-belt.txt) | **10 → 8**<br>10 stacked turbo belts<br>≈ 2,400 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__10-X__10-10_11x15_item_turbo-transport-belt.jpg" width="360"> | **10-10 [11x15] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__10-X__10-10_11x15_item_turbo-transport-belt.txt) | **10 → 10**<br>10 stacked turbo belts<br>≈ 2,400 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__10-X__10-12_10x20_item_turbo-transport-belt.jpg" width="360"> | **10-12 [10x20] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__10-X__10-12_10x20_item_turbo-transport-belt.txt) | **10 → 12**<br>10 stacked turbo belts<br>≈ 2,400 items/s | needs turbo transport belt+ |
 
@@ -567,9 +500,6 @@ UT unmarked
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
 | <img src="images/chocpaint__16-X__16-8_16x8_Split-2.jpg" width="360"> | **16-8 [16x8] (Split-2)**<br>[`bp`](blueprints/chocpaint__16-X__16-8_16x8_Split-2.txt) | **16 → 8**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
-| <img src="images/chocpaint__16-X__16-8_16x22_UT.jpg" width="360"> | **16-8 [16x22] (UT)**<br>[`bp`](blueprints/chocpaint__16-X__16-8_16x22_UT.txt) | **16 → 8**<br>16 stacked turbo belts<br>≈ 3,840 items/s | unlimited throughput |
-| <img src="images/chocpaint__16-X__16-10_16x20.jpg" width="360"> | **16-10 [16x20]**<br>[`bp`](blueprints/chocpaint__16-X__16-10_16x20.txt) | **16 → 10**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
-| <img src="images/chocpaint__16-X__16-16_16x14_item_turbo-transport-belt.jpg" width="360"> | **16-16 [16x14] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__16-X__16-16_16x14_item_turbo-transport-belt.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__16-X__16-16_16x26_Fractal_item_turbo-transport-belt.jpg" width="360"> | **16-16 [16x26] (Fractal, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__16-X__16-16_16x26_Fractal_item_turbo-transport-belt.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | fractal design<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__16-X__16-16_16x29_UT_item_turbo-transport-belt.jpg" width="360"> | **16-16 [16x29] (UT, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__16-X__16-16_16x29_UT_item_turbo-transport-belt.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | unlimited throughput<br>needs turbo transport belt+ |
 
@@ -607,7 +537,6 @@ Splitters that deliver different items to either side of the belt - Great for ma
 |---|---|---|---|
 | <img src="images/chocpaint__1-X__1-12_12x5_UT.jpg" width="360"> | **1-12 [12x5] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-12_12x5_UT.txt) | **1 → 12**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 | <img src="images/chocpaint__1-X__1-16_16x4_UT.jpg" width="360"> | **1-16 [16x4] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-16_16x4_UT.txt) | **1 → 16**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
-| <img src="images/chocpaint__1-X__1-17_17x8_UT.jpg" width="360"> | **1-17 [17x8] (UT)**<br>[`bp`](blueprints/chocpaint__1-X__1-17_17x8_UT.txt) | **1 → 17**<br>1 stacked turbo belt<br>≈ 240 items/s | unlimited throughput |
 
 ### 2-X
 
@@ -625,10 +554,6 @@ Splitters that deliver different items to either side of the belt - Great for ma
 
 ### 7-X
 
-| Preview | Balancer | Moves (fully stacked) | Notes |
-|---|---|---|---|
-| <img src="images/chocpaint__7-X__7-13_15x14.jpg" width="360"> | **7-13 [15x14]**<br>[`bp`](blueprints/chocpaint__7-X__7-13_15x14.txt) | **7 → 13**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-
 ### 8-X
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
@@ -636,10 +561,6 @@ Splitters that deliver different items to either side of the belt - Great for ma
 | <img src="images/chocpaint__8-X__8-13_15x13_item_turbo-transport-belt.jpg" width="360"> | **8-13 [15x13] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__8-X__8-13_15x13_item_turbo-transport-belt.txt) | **8 → 13**<br>8 stacked turbo belts<br>≈ 1,920 items/s | needs turbo transport belt+ |
 
 ### 11-X
-
-| Preview | Balancer | Moves (fully stacked) | Notes |
-|---|---|---|---|
-| <img src="images/chocpaint__11-X__11-10_13x21_item_turbo-transport-belt.jpg" width="360"> | **11-10 [13x21] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__11-X__11-10_13x21_item_turbo-transport-belt.txt) | **11 → 10**<br>11 stacked turbo belts<br>≈ 2,640 items/s | needs turbo transport belt+ |
 
 ### 12-X
 
@@ -649,7 +570,6 @@ Splitters that deliver different items to either side of the belt - Great for ma
 | <img src="images/chocpaint__12-X__12-8_12x18_item_turbo-transport-belt.jpg" width="360"> | **12-8 [12x18] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__12-X__12-8_12x18_item_turbo-transport-belt.txt) | **12 → 8**<br>12 stacked turbo belts<br>≈ 2,880 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__12-X__12-10_12x20_item_turbo-transport-belt.jpg" width="360"> | **12-10 [12x20] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__12-X__12-10_12x20_item_turbo-transport-belt.txt) | **12 → 10**<br>12 stacked turbo belts<br>≈ 2,880 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__12-X__12-12_14x15_item_turbo-transport-belt.jpg" width="360"> | **12-12 [14x15] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__12-X__12-12_14x15_item_turbo-transport-belt.txt) | **12 → 12**<br>12 stacked turbo belts<br>≈ 2,880 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__12-X__12-12_12x17_Inline_item_turbo-transport-belt.jpg" width="360"> | **12-12 [12x17] (Inline, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__12-X__12-12_12x17_Inline_item_turbo-transport-belt.txt) | **12 → 12**<br>12 stacked turbo belts<br>≈ 2,880 items/s | inline<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__12-X__12-12_22x12_Split-3.jpg" width="360"> | **12-12 [22x12] (Split-3)**<br>[`bp`](blueprints/chocpaint__12-X__12-12_22x12_Split-3.txt) | **12 → 12**<br>12 stacked turbo belts<br>≈ 2,880 items/s | — |
 | <img src="images/chocpaint__12-X__12-25_25x17_item_turbo-transport-belt.jpg" width="360"> | **12-25 [25x17] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__12-X__12-25_25x17_item_turbo-transport-belt.txt) | **12 → 25**<br>12 stacked turbo belts<br>≈ 2,880 items/s | needs turbo transport belt+ |
 
@@ -657,7 +577,6 @@ Splitters that deliver different items to either side of the belt - Great for ma
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__15-X__15-6_12x11.jpg" width="360"> | **15-6 [12x11]**<br>[`bp`](blueprints/chocpaint__15-X__15-6_12x11.txt) | **15 → 6**<br>15 stacked turbo belts<br>≈ 3,600 items/s | — |
 | <img src="images/chocpaint__15-X__15-10_15x17.jpg" width="360"> | **15-10 [15x17]**<br>[`bp`](blueprints/chocpaint__15-X__15-10_15x17.txt) | **15 → 10**<br>15 stacked turbo belts<br>≈ 3,600 items/s | — |
 
 ### OVERSIZE (20-128)
@@ -674,8 +593,6 @@ Containing Balancers of 20 belts+
 | <img src="images/chocpaint__OVERSIZE_20-128___32-32_32x25_item_turbo-transport-belt.jpg" width="360"> | **32-32 [32x25] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___32-32_32x25_item_turbo-transport-belt.txt) | **32 → 32**<br>32 stacked turbo belts<br>≈ 7,680 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__OVERSIZE_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.jpg" width="360"> | **32-32 [32x47] (Fractal, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.txt) | **32 → 32**<br>32 stacked turbo belts<br>≈ 7,680 items/s | fractal design<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__OVERSIZE_20-128___64-64_64x54_item_turbo-transport-belt.jpg" width="360"> | **64-64 [64x54] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___64-64_64x54_item_turbo-transport-belt.txt) | **64 → 64**<br>64 stacked turbo belts<br>≈ 15,360 items/s | needs turbo transport belt+ |
-| <img src="images/chocpaint__OVERSIZE_20-128___64-64_64x46_Weave.jpg" width="360"> | **64-64 [64x46] (Weave)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___64-64_64x46_Weave.txt) | **64 → 64**<br>64 stacked turbo belts<br>≈ 15,360 items/s | weave design |
-| <img src="images/chocpaint__OVERSIZE_20-128___128-128_128x72_Weave.jpg" width="360"> | **128-128 [128x72] (Weave)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___128-128_128x72_Weave.txt) | **128 → 128**<br>128 stacked turbo belts<br>≈ 30,720 items/s | weave design |
 
 ## Ugly Inferior Alternatives 👎👎👎
 
@@ -684,32 +601,16 @@ Some alternatives to fast transport belt/express transport belt exclusive balanc
 
 | Preview | Balancer | Moves (fully stacked) | Notes |
 |---|---|---|---|
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___4-8.jpg" width="360"> | **4-8**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___4-8.txt) | **4 → 8**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___4-9.jpg" width="360"> | **4-9**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___4-9.txt) | **4 → 9**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-5.jpg" width="360"> | **5-5**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-5.txt) | **5 → 5**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-6.jpg" width="360"> | **5-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-6.txt) | **5 → 6**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-7.jpg" width="360"> | **5-7**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-7.txt) | **5 → 7**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-8.jpg" width="360"> | **5-8**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-8.txt) | **5 → 8**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-4.jpg" width="360"> | **6-4**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-4.txt) | **6 → 4**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-5.jpg" width="360"> | **6-5**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-5.txt) | **6 → 5**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-6.jpg" width="360"> | **6-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-6.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-8.jpg" width="360"> | **6-8**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-8.txt) | **6 → 8**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-9.jpg" width="360"> | **6-9**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-9.txt) | **6 → 9**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___7-5.jpg" width="360"> | **7-5**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___7-5.txt) | **7 → 5**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___7-7.jpg" width="360"> | **7-7**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___7-7.txt) | **7 → 7**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___7-8.jpg" width="360"> | **7-8**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___7-8.txt) | **7 → 8**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-4.jpg" width="360"> | **8-4**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-4.txt) | **8 → 4**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-5_Inline.jpg" width="360"> | **8-5 (Inline)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-5_Inline.txt) | **8 → 5**<br>8 stacked turbo belts<br>≈ 1,920 items/s | inline |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_Compact.jpg" width="360"> | **8-8 (Compact)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Compact.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | compact |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-6.jpg" width="360"> | **8-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-6.txt) | **8 → 6**<br>8 stacked turbo belts<br>≈ 1,920 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_Inline.jpg" width="360"> | **8-8 (Inline)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Inline.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | inline |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_Corner.jpg" width="360"> | **8-8 (Corner)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Corner.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | output turns 90° |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_UT_1.jpg" width="360"> | **8-8 (UT)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_UT_1.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_UT_1.jpg" width="360"> | **8-8 (UT)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_UT_1.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | unlimited throughput |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___9-6.jpg" width="360"> | **9-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___9-6.txt) | **9 → 6**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
 | <img src="images/chocpaint__Ugly_Inferior_Alternatives___9-9.jpg" width="360"> | **9-9**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___9-9.txt) | **9 → 9**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___16-16_1.jpg" width="360"> | **16-16**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16_1.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___16-16_1.jpg" width="360"> | **16-16**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16_1.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
+| <img src="images/chocpaint__Ugly_Inferior_Alternatives___16-16.jpg" width="360"> | **16-16**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
 
 ## Helpful Deconstruction/Upgrade
 

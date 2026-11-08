@@ -4180,30 +4180,6 @@
    0,
    1
   ],
-  "label": "1-1 [3x5] (UT, Lane, Straight, [virtual-signal=signal-radioactivity])",
-  "label_clean": "1-1 [3x5] (UT, Lane, Straight, [signal-radioactivity])",
-  "inputs": 1,
-  "outputs": 1,
-  "entities": 11,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-1_3x5_UT_Lane_Straight_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   2
-  ],
   "label": "1-1 [2x3] (UT, Lane[virtual-signal=signal-alert], Corner)",
   "label_clean": "1-1 [2x3] (UT, Lane[signal-alert], Corner)",
   "inputs": 1,
@@ -4226,31 +4202,7 @@
   "index_path": [
    0,
    0,
-   3
-  ],
-  "label": "1-1 [4x3] (UT, Lane, Corner, [virtual-signal=signal-radioactivity])",
-  "label_clean": "1-1 [4x3] (UT, Lane, Corner, [signal-radioactivity])",
-  "inputs": 1,
-  "outputs": 1,
-  "entities": 9,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-1_4x3_UT_Lane_Corner_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   4
+   2
   ],
   "label": "1-2 [2x1] (UT)",
   "label_clean": "1-2 [2x1] (UT)",
@@ -4274,7 +4226,7 @@
   "index_path": [
    0,
    0,
-   5
+   3
   ],
   "label": "1-2 [3x4] (UT, Lane[virtual-signal=signal-alert])",
   "label_clean": "1-2 [3x4] (UT, Lane[signal-alert])",
@@ -4298,7 +4250,7 @@
   "index_path": [
    0,
    0,
-   6
+   4
   ],
   "label": "1-2 [3x6] (UT, Lane, [virtual-signal=signal-radioactivity])",
   "label_clean": "1-2 [3x6] (UT, Lane, [signal-radioactivity])",
@@ -4322,55 +4274,7 @@
   "index_path": [
    0,
    0,
-   7
-  ],
-  "label": "1-3 [4x4] (UT)",
-  "label_clean": "1-3 [4x4] (UT)",
-  "inputs": 1,
-  "outputs": 3,
-  "entities": 16,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-3_4x4_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   8
-  ],
-  "label": "1-4 [4x2] (UT)",
-  "label_clean": "1-4 [4x2] (UT)",
-  "inputs": 1,
-  "outputs": 4,
-  "entities": 8,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-4_4x2_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   9
+   5
   ],
   "label": "1-5 [5x6] (UT)",
   "label_clean": "1-5 [5x6] (UT)",
@@ -4394,31 +4298,7 @@
   "index_path": [
    0,
    0,
-   10
-  ],
-  "label": "1-6 [6x4] (UT)",
-  "label_clean": "1-6 [6x4] (UT)",
-  "inputs": 1,
-  "outputs": 6,
-  "entities": 19,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-6_6x4_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   11
+   6
   ],
   "label": "1-7 [7x5] (UT)",
   "label_clean": "1-7 [7x5] (UT)",
@@ -4442,55 +4322,7 @@
   "index_path": [
    0,
    0,
-   12
-  ],
-  "label": "1-8 [8x3] (UT)",
-  "label_clean": "1-8 [8x3] (UT)",
-  "inputs": 1,
-  "outputs": 8,
-  "entities": 20,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-8_8x3_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   13
-  ],
-  "label": "1-9 [9x7] (UT)",
-  "label_clean": "1-9 [9x7] (UT)",
-  "inputs": 1,
-  "outputs": 9,
-  "entities": 45,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-9_9x7_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   14
+   7
   ],
   "label": "1-10 [10x6] (UT, Fractal)",
   "label_clean": "1-10 [10x6] (UT, Fractal)",
@@ -4588,30 +4420,6 @@
    1,
    3
   ],
-  "label": "2-2 [3x6] (Lane, [virtual-signal=signal-radioactivity])",
-  "label_clean": "2-2 [3x6] (Lane, [signal-radioactivity])",
-  "inputs": 2,
-  "outputs": 2,
-  "entities": 16,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-2_3x6_Lane_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   4
-  ],
   "label": "2-2 [2x12] (Lane, Inline, [virtual-signal=signal-radioactivity])",
   "label_clean": "2-2 [2x12] (Lane, Inline, [signal-radioactivity])",
   "inputs": 2,
@@ -4634,79 +4442,7 @@
   "index_path": [
    0,
    1,
-   5
-  ],
-  "label": "2-2 [4x4] (Lane, Corner, [virtual-signal=signal-radioactivity])",
-  "label_clean": "2-2 [4x4] (Lane, Corner, [signal-radioactivity])",
-  "inputs": 2,
-  "outputs": 2,
-  "entities": 13,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-2_4x4_Lane_Corner_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   6
-  ],
-  "label": "2-3 [4x6]",
-  "label_clean": "2-3 [4x6]",
-  "inputs": 2,
-  "outputs": 3,
-  "entities": 24,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-3_4x6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   7
-  ],
-  "label": "2-4 [4x2]",
-  "label_clean": "2-4 [4x2]",
-  "inputs": 2,
-  "outputs": 4,
-  "entities": 9,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-4_4x2.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   8
   ],
   "label": "2-4 [4x3] (UT[virtual-signal=signal-alert], Compact)",
   "label_clean": "2-4 [4x3] (UT[signal-alert], Compact)",
@@ -4730,79 +4466,7 @@
   "index_path": [
    0,
    1,
-   9
-  ],
-  "label": "2-4 [4x4] (UT)",
-  "label_clean": "2-4 [4x4] (UT)",
-  "inputs": 2,
-  "outputs": 4,
-  "entities": 14,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-4_4x4_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   10
-  ],
-  "label": "2-5 [5x7]",
-  "label_clean": "2-5 [5x7]",
-  "inputs": 2,
-  "outputs": 5,
-  "entities": 31,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-5_5x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   11
-  ],
-  "label": "2-6 [8x4]",
-  "label_clean": "2-6 [8x4]",
-  "inputs": 2,
-  "outputs": 6,
-  "entities": 33,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-6_8x4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   12
+   5
   ],
   "label": "2x7 [7x6]",
   "label_clean": "2x7 [7x6]",
@@ -4826,79 +4490,7 @@
   "index_path": [
    0,
    1,
-   13
-  ],
-  "label": "2-8 [8x3]",
-  "label_clean": "2-8 [8x3]",
-  "inputs": 2,
-  "outputs": 8,
-  "entities": 21,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-8_8x3.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   14
-  ],
-  "label": "2-8 [8x6] (UT)",
-  "label_clean": "2-8 [8x6] (UT)",
-  "inputs": 2,
-  "outputs": 8,
-  "entities": 42,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-8_8x6_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   15
-  ],
-  "label": "2-9 [9x7]",
-  "label_clean": "2-9 [9x7]",
-  "inputs": 2,
-  "outputs": 9,
-  "entities": 51,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-9_9x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   16
+   6
   ],
   "label": "2-10 [10x6] (Fractal)",
   "label_clean": "2-10 [10x6] (Fractal)",
@@ -4996,126 +4588,6 @@
    2,
    3
   ],
-  "label": "3-3 [5x7] (UT)",
-  "label_clean": "3-3 [5x7] (UT)",
-  "inputs": 3,
-  "outputs": 3,
-  "entities": 30,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-3_5x7_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   4
-  ],
-  "label": "3-3 [6x7] (UT, Corner)",
-  "label_clean": "3-3 [6x7] (UT, Corner)",
-  "inputs": 3,
-  "outputs": 3,
-  "entities": 33,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-3_6x7_UT_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   5
-  ],
-  "label": "3-3 [7x7] (Lane, [virtual-signal=signal-radioactivity])",
-  "label_clean": "3-3 [7x7] (Lane, [signal-radioactivity])",
-  "inputs": 3,
-  "outputs": 3,
-  "entities": 42,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-3_7x7_Lane_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   6
-  ],
-  "label": "3-4 [7x7] (UT)",
-  "label_clean": "3-4 [7x7] (UT)",
-  "inputs": 3,
-  "outputs": 4,
-  "entities": 39,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-4_7x7_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   7
-  ],
-  "label": "3-5 [8x8]",
-  "label_clean": "3-5 [8x8]",
-  "inputs": 3,
-  "outputs": 5,
-  "entities": 53,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-5_8x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   8
-  ],
   "label": "3-5 [7x10] (UT)",
   "label_clean": "3-5 [7x10] (UT)",
   "inputs": 3,
@@ -5138,55 +4610,7 @@
   "index_path": [
    0,
    2,
-   9
-  ],
-  "label": "3-6 [7x5]",
-  "label_clean": "3-6 [7x5]",
-  "inputs": 3,
-  "outputs": 6,
-  "entities": 30,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-6_7x5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   10
-  ],
-  "label": "3-6 [9x11] (UT)",
-  "label_clean": "3-6 [9x11] (UT)",
-  "inputs": 3,
-  "outputs": 6,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-6_9x11_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   11
   ],
   "label": "3-7 [9x7] (Mid)",
   "label_clean": "3-7 [9x7] (Mid)",
@@ -5205,108 +4629,12 @@
    "BELT BALANCER COMPENDIUM",
    "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
    "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   12
-  ],
-  "label": "3-7 [8x8] (Side)",
-  "label_clean": "3-7 [8x8] (Side)",
-  "inputs": 3,
-  "outputs": 7,
-  "entities": 56,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-7_8x8_Side.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   13
-  ],
-  "label": "3-8 [8x7]",
-  "label_clean": "3-8 [8x7]",
-  "inputs": 3,
-  "outputs": 8,
-  "entities": 44,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-8_8x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   14
-  ],
-  "label": "3-9 [9x8]",
-  "label_clean": "3-9 [9x8]",
-  "inputs": 3,
-  "outputs": 9,
-  "entities": 63,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-9_9x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
    "4-X"
   ],
   "index_path": [
    0,
    3,
    0
-  ],
-  "label": "4-1 [4x2] (UT)",
-  "label_clean": "4-1 [4x2] (UT)",
-  "inputs": 4,
-  "outputs": 1,
-  "entities": 8,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-1_4x2_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   1
   ],
   "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Straight)",
   "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Straight)",
@@ -5330,7 +4658,7 @@
   "index_path": [
    0,
    3,
-   2
+   1
   ],
   "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Corner)",
   "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Corner)",
@@ -5354,55 +4682,7 @@
   "index_path": [
    0,
    3,
-   3
-  ],
-  "label": "4-2 [4x2]",
-  "label_clean": "4-2 [4x2]",
-  "inputs": 4,
-  "outputs": 2,
-  "entities": 9,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-2_4x2.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   4
-  ],
-  "label": "4-2 (TU)",
-  "label_clean": "4-2 (TU)",
-  "inputs": 4,
-  "outputs": 2,
-  "entities": 14,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-2_TU.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   5
+   2
   ],
   "label": "4-3 [6x6]",
   "label_clean": "4-3 [6x6]",
@@ -5426,7 +4706,7 @@
   "index_path": [
    0,
    3,
-   6
+   3
   ],
   "label": "4-3 [7x7] (UT)",
   "label_clean": "4-3 [7x7] (UT)",
@@ -5450,7 +4730,7 @@
   "index_path": [
    0,
    3,
-   7
+   4
   ],
   "label": "4-4 [4x8] (UT)",
   "label_clean": "4-4 [4x8] (UT)",
@@ -5474,79 +4754,7 @@
   "index_path": [
    0,
    3,
-   8
-  ],
-  "label": "4-4 [4x6] (UT, Edge-In)",
-  "label_clean": "4-4 [4x6] (UT, Edge-In)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_4x6_UT_Edge-In.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   9
-  ],
-  "label": "4-4 [4x6] (UT, Edge-Out)",
-  "label_clean": "4-4 [4x6] (UT, Edge-Out)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_4x6_UT_Edge-Out.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   10
-  ],
-  "label": "4-4 [6x7] (UT, Corner, Inline)",
-  "label_clean": "4-4 [6x7] (UT, Corner, Inline)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 34,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_6x7_UT_Corner_Inline.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   11
+   5
   ],
   "label": "4-4 [6x7] (UT, Corner, Compact-Tall)",
   "label_clean": "4-4 [6x7] (UT, Corner, Compact-Tall)",
@@ -5570,7 +4778,7 @@
   "index_path": [
    0,
    3,
-   12
+   6
   ],
   "label": "4-4 [8x5] (UT, Corner, Compact-Wide)",
   "label_clean": "4-4 [8x5] (UT, Corner, Compact-Wide)",
@@ -5594,7 +4802,7 @@
   "index_path": [
    0,
    3,
-   13
+   7
   ],
   "label": "4-4 [6x8] (Lane, Straight, [virtual-signal=signal-alert][virtual-signal=signal-radioactivity])",
   "label_clean": "4-4 [6x8] (Lane, Straight, [signal-alert][signal-radioactivity])",
@@ -5618,7 +4826,7 @@
   "index_path": [
    0,
    3,
-   14
+   8
   ],
   "label": "4-4 [4x13] (Lane, Inline, [virtual-signal=signal-radioactivity])",
   "label_clean": "4-4 [4x13] (Lane, Inline, [signal-radioactivity])",
@@ -5642,31 +4850,7 @@
   "index_path": [
    0,
    3,
-   15
-  ],
-  "label": "4-4 [8x7] (Lane, Corner, [virtual-signal=signal-radioactivity])",
-  "label_clean": "4-4 [8x7] (Lane, Corner, [signal-radioactivity])",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 42,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_8x7_Lane_Corner_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   16
+   9
   ],
   "label": "4-5 [8x9]",
   "label_clean": "4-5 [8x9]",
@@ -5690,31 +4874,7 @@
   "index_path": [
    0,
    3,
-   17
-  ],
-  "label": "4-6 [6x9]",
-  "label_clean": "4-6 [6x9]",
-  "inputs": 4,
-  "outputs": 6,
-  "entities": 51,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-6_6x9.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   18
+   10
   ],
   "label": "4-6 [8x10] (UT)",
   "label_clean": "4-6 [8x10] (UT)",
@@ -5738,55 +4898,7 @@
   "index_path": [
    0,
    3,
-   19
-  ],
-  "label": "4-7 [9x7]",
-  "label_clean": "4-7 [9x7]",
-  "inputs": 4,
-  "outputs": 7,
-  "entities": 58,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-7_9x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   20
-  ],
-  "label": "4-8 [8x4]",
-  "label_clean": "4-8 [8x4]",
-  "inputs": 4,
-  "outputs": 8,
-  "entities": 36,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-8_8x4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   21
+   11
   ],
   "label": "4-8 [8x10] (UT)",
   "label_clean": "4-8 [8x10] (UT)",
@@ -5810,31 +4922,7 @@
   "index_path": [
    0,
    3,
-   22
-  ],
-  "label": "4-9 [9x10]",
-  "label_clean": "4-9 [9x10]",
-  "inputs": 4,
-  "outputs": 9,
-  "entities": 74,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-9_9x10.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   23
+   12
   ],
   "label": "4-10 [10x7] (Unbalanced, Fractal)",
   "label_clean": "4-10 [10x7] (Unbalanced, Fractal)",
@@ -5858,7 +4946,7 @@
   "index_path": [
    0,
    3,
-   24
+   13
   ],
   "label": "4-10 [12x15] (UT)",
   "label_clean": "4-10 [12x15] (UT)",
@@ -5884,30 +4972,6 @@
    4,
    0
   ],
-  "label": "5-1 [6x6] (UT)",
-  "label_clean": "5-1 [6x6] (UT)",
-  "inputs": 5,
-  "outputs": 1,
-  "entities": 25,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-1_6x6_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   1
-  ],
   "label": "5-2 [5x7]",
   "label_clean": "5-2 [5x7]",
   "inputs": 5,
@@ -5930,7 +4994,7 @@
   "index_path": [
    0,
    4,
-   2
+   1
   ],
   "label": "5-3 [8x8]",
   "label_clean": "5-3 [8x8]",
@@ -5954,31 +5018,7 @@
   "index_path": [
    0,
    4,
-   3
-  ],
-  "label": "5-4 [8x9]",
-  "label_clean": "5-4 [8x9]",
-  "inputs": 5,
-  "outputs": 4,
-  "entities": 57,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-4_8x9.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   4
+   2
   ],
   "label": "5-5 [7x10]",
   "label_clean": "5-5 [7x10]",
@@ -6002,7 +5042,7 @@
   "index_path": [
    0,
    4,
-   5
+   3
   ],
   "label": "5-5 [5x15] (Inline)",
   "label_clean": "5-5 [5x15] (Inline)",
@@ -6026,79 +5066,7 @@
   "index_path": [
    0,
    4,
-   6
-  ],
-  "label": "5-6 [8x13]",
-  "label_clean": "5-6 [8x13]",
-  "inputs": 5,
-  "outputs": 6,
-  "entities": 86,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-6_8x13.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   7
-  ],
-  "label": "5-7 [9x13] ([item=turbo-transport-belt]+)",
-  "label_clean": "5-7 [9x13] ([turbo-transport-belt]+)",
-  "inputs": 5,
-  "outputs": 7,
-  "entities": 97,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-7_9x13_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   8
-  ],
-  "label": "5-8 [8x12] ([item=turbo-transport-belt]+)",
-  "label_clean": "5-8 [8x12] ([turbo-transport-belt]+)",
-  "inputs": 5,
-  "outputs": 8,
-  "entities": 83,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-8_8x12_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   9
   ],
   "label": "5-9 [9x16] ([item=turbo-transport-belt]+)",
   "label_clean": "5-9 [9x16] ([turbo-transport-belt]+)",
@@ -6122,7 +5090,7 @@
   "index_path": [
    0,
    4,
-   10
+   5
   ],
   "label": "5-10 [10x11] (Fractal, Unbalanced)",
   "label_clean": "5-10 [10x11] (Fractal, Unbalanced)",
@@ -6172,30 +5140,6 @@
    5,
    1
   ],
-  "label": "6-2 [7x5] (UT)",
-  "label_clean": "6-2 [7x5] (UT)",
-  "inputs": 6,
-  "outputs": 2,
-  "entities": 30,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-2_7x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   2
-  ],
   "label": "6-3 [7x5]",
   "label_clean": "6-3 [7x5]",
   "inputs": 6,
@@ -6218,127 +5162,7 @@
   "index_path": [
    0,
    5,
-   3
-  ],
-  "label": "6-3 [10x10] (UT)",
-  "label_clean": "6-3 [10x10] (UT)",
-  "inputs": 6,
-  "outputs": 3,
-  "entities": 83,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-3_10x10_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   4
-  ],
-  "label": "6-4 [6x9]",
-  "label_clean": "6-4 [6x9]",
-  "inputs": 6,
-  "outputs": 4,
-  "entities": 52,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-4_6x9.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   5
-  ],
-  "label": "6-4 [8x11] (UT)",
-  "label_clean": "6-4 [8x11] (UT)",
-  "inputs": 6,
-  "outputs": 4,
-  "entities": 70,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-4_8x11_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   6
-  ],
-  "label": "6-5 [8x12]",
-  "label_clean": "6-5 [8x12]",
-  "inputs": 6,
-  "outputs": 5,
-  "entities": 88,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-5_8x12.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   7
-  ],
-  "label": "6-5 [8x13]",
-  "label_clean": "6-5 [8x13]",
-  "inputs": 6,
-  "outputs": 5,
-  "entities": 86,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-5_8x13.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   8
+   2
   ],
   "label": "6-6 [7x10] ([item=turbo-transport-belt]+)",
   "label_clean": "6-6 [7x10] ([turbo-transport-belt]+)",
@@ -6362,55 +5186,7 @@
   "index_path": [
    0,
    5,
-   9
-  ],
-  "label": "6-6 [6x11] (Inline, [item=turbo-transport-belt]+)",
-  "label_clean": "6-6 [6x11] (Inline, [turbo-transport-belt]+)",
-  "inputs": 6,
-  "outputs": 6,
-  "entities": 65,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-6_6x11_Inline_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   10
-  ],
-  "label": "6-6 [9x9] (Corner)",
-  "label_clean": "6-6 [9x9] (Corner)",
-  "inputs": 6,
-  "outputs": 6,
-  "entities": 67,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-6_9x9_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   11
+   3
   ],
   "label": "6-6 [9x13] (Lane)",
   "label_clean": "6-6 [9x13] (Lane)",
@@ -6434,7 +5210,7 @@
   "index_path": [
    0,
    5,
-   12
+   4
   ],
   "label": "6-7 [9x13]",
   "label_clean": "6-7 [9x13]",
@@ -6458,31 +5234,7 @@
   "index_path": [
    0,
    5,
-   13
-  ],
-  "label": "6-8 [7x11] (Left)",
-  "label_clean": "6-8 [7x11] (Left)",
-  "inputs": 6,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-8_7x11_Left.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   14
+   5
   ],
   "label": "6-8 [8x11] (Mid, [item=turbo-transport-belt]+)",
   "label_clean": "6-8 [8x11] (Mid, [turbo-transport-belt]+)",
@@ -6506,7 +5258,7 @@
   "index_path": [
    0,
    5,
-   15
+   6
   ],
   "label": "6-9 [9x14] ([item=turbo-transport-belt]+)",
   "label_clean": "6-9 [9x14] ([turbo-transport-belt]+)",
@@ -6532,30 +5284,6 @@
    6,
    0
   ],
-  "label": "7-1 [7x5] (UT)",
-  "label_clean": "7-1 [7x5] (UT)",
-  "inputs": 7,
-  "outputs": 1,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-1_7x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   1
-  ],
   "label": "7-2 [7x5]",
   "label_clean": "7-2 [7x5]",
   "inputs": 7,
@@ -6578,7 +5306,7 @@
   "index_path": [
    0,
    6,
-   2
+   1
   ],
   "label": "7-3 [9x8]",
   "label_clean": "7-3 [9x8]",
@@ -6602,31 +5330,7 @@
   "index_path": [
    0,
    6,
-   3
-  ],
-  "label": "7-4 [9x7]",
-  "label_clean": "7-4 [9x7]",
-  "inputs": 7,
-  "outputs": 4,
-  "entities": 58,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-4_9x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   4
+   2
   ],
   "label": "7-5 [9x13]",
   "label_clean": "7-5 [9x13]",
@@ -6650,7 +5354,7 @@
   "index_path": [
    0,
    6,
-   5
+   3
   ],
   "label": "7-6 [9x13]",
   "label_clean": "7-6 [9x13]",
@@ -6674,55 +5378,7 @@
   "index_path": [
    0,
    6,
-   6
-  ],
-  "label": "7-7 [9x10]",
-  "label_clean": "7-7 [9x10]",
-  "inputs": 7,
-  "outputs": 7,
-  "entities": 80,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-7_9x10.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   7
-  ],
-  "label": "7-7 [7x12] (Inline)",
-  "label_clean": "7-7 [7x12] (Inline)",
-  "inputs": 7,
-  "outputs": 7,
-  "entities": 80,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-7_7x12_Inline.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   8
   ],
   "label": "7-8 [9x13] ([item=turbo-transport-belt]+)",
   "label_clean": "7-8 [9x13] ([turbo-transport-belt]+)",
@@ -6746,7 +5402,7 @@
   "index_path": [
    0,
    6,
-   9
+   5
   ],
   "label": "7-8 [8x14] ([item=turbo-transport-belt]+)",
   "label_clean": "7-8 [8x14] ([turbo-transport-belt]+)",
@@ -6770,7 +5426,7 @@
   "index_path": [
    0,
    6,
-   10
+   6
   ],
   "label": "7-9 [12x16] ([item=turbo-transport-belt]+)",
   "label_clean": "7-9 [12x16] ([turbo-transport-belt]+)",
@@ -6781,30 +5437,6 @@
    4
   ],
   "file": "blueprints/chocpaint__7-X__7-9_12x16_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   11
-  ],
-  "label": "7-10 [10x18] ([item=turbo-transport-belt]+)",
-  "label_clean": "7-10 [10x18] ([turbo-transport-belt]+)",
-  "inputs": 7,
-  "outputs": 10,
-  "entities": 138,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-10_10x18_item_turbo-transport-belt.txt",
   "desc": ""
  },
  {
@@ -6868,30 +5500,6 @@
    7,
    2
   ],
-  "label": "8-2 [8x6] (UT)",
-  "label_clean": "8-2 [8x6] (UT)",
-  "inputs": 8,
-  "outputs": 2,
-  "entities": 45,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-2_8x6_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   3
-  ],
   "label": "8-3 [8x8]",
   "label_clean": "8-3 [8x8]",
   "inputs": 8,
@@ -6914,55 +5522,7 @@
   "index_path": [
    0,
    7,
-   4
-  ],
-  "label": "8-4 [8x5]",
-  "label_clean": "8-4 [8x5]",
-  "inputs": 8,
-  "outputs": 4,
-  "entities": 40,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-4_8x5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   5
-  ],
-  "label": "8-4 [8x10] (UT)",
-  "label_clean": "8-4 [8x10] (UT)",
-  "inputs": 8,
-  "outputs": 4,
-  "entities": 66,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-4_8x10_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   6
+   3
   ],
   "label": "8-5 [8x12]",
   "label_clean": "8-5 [8x12]",
@@ -6986,7 +5546,7 @@
   "index_path": [
    0,
    7,
-   7
+   4
   ],
   "label": "8-5 [8x13] ([item=turbo-transport-belt]+)",
   "label_clean": "8-5 [8x13] ([turbo-transport-belt]+)",
@@ -7010,7 +5570,7 @@
   "index_path": [
    0,
    7,
-   8
+   5
   ],
   "label": "8-6 [8x11]",
   "label_clean": "8-6 [8x11]",
@@ -7034,55 +5594,7 @@
   "index_path": [
    0,
    7,
-   9
-  ],
-  "label": "8-7 [8x14]",
-  "label_clean": "8-7 [8x14]",
-  "inputs": 8,
-  "outputs": 7,
-  "entities": 97,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-7_8x14.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   10
-  ],
-  "label": "8-8 [8x10] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-8 [8x10] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_8x10_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   11
+   6
   ],
   "label": "8-8 [8x15] (Fractal)",
   "label_clean": "8-8 [8x15] (Fractal)",
@@ -7106,7 +5618,7 @@
   "index_path": [
    0,
    7,
-   12
+   7
   ],
   "label": "8-8 [8x16] (UT, [item=turbo-transport-belt]+)",
   "label_clean": "8-8 [8x16] (UT, [turbo-transport-belt]+)",
@@ -7130,31 +5642,7 @@
   "index_path": [
    0,
    7,
-   13
-  ],
-  "label": "8-8 [9x10] (Corner)",
-  "label_clean": "8-8 [9x10] (Corner)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_9x10_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   14
+   8
   ],
   "label": "8-8 [11x8] (Edge-In)",
   "label_clean": "8-8 [11x8] (Edge-In)",
@@ -7178,31 +5666,7 @@
   "index_path": [
    0,
    7,
-   15
-  ],
-  "label": "8-8 [11x8] (Edge-Out)",
-  "label_clean": "8-8 [11x8] (Edge-Out)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_11x8_Edge-Out.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   16
+   9
   ],
   "label": "8-8 [11x8] (Split-2)",
   "label_clean": "8-8 [11x8] (Split-2)",
@@ -7226,7 +5690,7 @@
   "index_path": [
    0,
    7,
-   17
+   10
   ],
   "label": "8-8 [10x15] (UT, Split-2, [item=turbo-transport-belt]+)",
   "label_clean": "8-8 [10x15] (UT, Split-2, [turbo-transport-belt]+)",
@@ -7250,7 +5714,7 @@
   "index_path": [
    0,
    7,
-   18
+   11
   ],
   "label": "8-8 [12x8] (Split-4)",
   "label_clean": "8-8 [12x8] (Split-4)",
@@ -7274,31 +5738,7 @@
   "index_path": [
    0,
    7,
-   19
-  ],
-  "label": "8-8 [12x11] (Lane, [item=turbo-transport-belt]+)",
-  "label_clean": "8-8 [12x11] (Lane, [turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 121,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_12x11_Lane_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   20
+   12
   ],
   "label": "8-9 [11x14] ([item=turbo-transport-belt]+)",
   "label_clean": "8-9 [11x14] ([turbo-transport-belt]+)",
@@ -7322,7 +5762,7 @@
   "index_path": [
    0,
    7,
-   21
+   13
   ],
   "label": "8-9 [9x17] ([item=turbo-transport-belt]+)",
   "label_clean": "8-9 [9x17] ([turbo-transport-belt]+)",
@@ -7346,7 +5786,7 @@
   "index_path": [
    0,
    7,
-   22
+   14
   ],
   "label": "8-10 [10x14] ([item=turbo-transport-belt]+)",
   "label_clean": "8-10 [10x14] ([turbo-transport-belt]+)",
@@ -7370,7 +5810,7 @@
   "index_path": [
    0,
    7,
-   23
+   15
   ],
   "label": "8-12 [12x12] ([item=turbo-transport-belt]+)",
   "label_clean": "8-12 [12x12] ([turbo-transport-belt]+)",
@@ -7394,7 +5834,7 @@
   "index_path": [
    0,
    7,
-   24
+   16
   ],
   "label": "8-16 [16x8]",
   "label_clean": "8-16 [16x8]",
@@ -7420,30 +5860,6 @@
    8,
    0
   ],
-  "label": "9-1 [9x7] (UT)",
-  "label_clean": "9-1 [9x7] (UT)",
-  "inputs": 9,
-  "outputs": 1,
-  "entities": 46,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-1_9x7_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   1
-  ],
   "label": "9-2 [10x7]",
   "label_clean": "9-2 [10x7]",
   "inputs": 9,
@@ -7466,7 +5882,7 @@
   "index_path": [
    0,
    8,
-   2
+   1
   ],
   "label": "9-3 [10x8]",
   "label_clean": "9-3 [10x8]",
@@ -7490,7 +5906,7 @@
   "index_path": [
    0,
    8,
-   3
+   2
   ],
   "label": "9-4 [9x10]",
   "label_clean": "9-4 [9x10]",
@@ -7514,31 +5930,7 @@
   "index_path": [
    0,
    8,
-   4
-  ],
-  "label": "9-5 [9x16] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-5 [9x16] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 5,
-  "entities": 118,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-5_9x16_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   5
+   3
   ],
   "label": "9-6 [9x14] ([item=turbo-transport-belt]+)",
   "label_clean": "9-6 [9x14] ([turbo-transport-belt]+)",
@@ -7562,103 +5954,7 @@
   "index_path": [
    0,
    8,
-   6
-  ],
-  "label": "9-7 [12x17] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-7 [12x17] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 7,
-  "entities": 167,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-7_12x17_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   7
-  ],
-  "label": "9-8 [11x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-8 [11x14] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 8,
-  "entities": 137,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-8_11x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   8
-  ],
-  "label": "9-9 [11x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-9 [11x14] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 9,
-  "entities": 136,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-9_11x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   9
-  ],
-  "label": "9-10 [11x21] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-10 [11x21] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 10,
-  "entities": 197,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-10_11x21_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   10
   ],
   "label": "9-12 [12x16]",
   "label_clean": "9-12 [12x16]",
@@ -7684,30 +5980,6 @@
    9,
    0
   ],
-  "label": "10-8 [10x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "10-8 [10x14] ([turbo-transport-belt]+)",
-  "inputs": 10,
-  "outputs": 8,
-  "entities": 124,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__10-X__10-8_10x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "10-X"
-  ],
-  "index_path": [
-   0,
-   9,
-   1
-  ],
   "label": "10-10 [11x15] ([item=turbo-transport-belt]+)",
   "label_clean": "10-10 [11x15] ([turbo-transport-belt]+)",
   "inputs": 10,
@@ -7730,7 +6002,7 @@
   "index_path": [
    0,
    9,
-   2
+   1
   ],
   "label": "10-12 [10x20] ([item=turbo-transport-belt]+)",
   "label_clean": "10-12 [10x20] ([turbo-transport-belt]+)",
@@ -7780,78 +6052,6 @@
    10,
    1
   ],
-  "label": "16-8 [16x22] (UT)",
-  "label_clean": "16-8 [16x22] (UT)",
-  "inputs": 16,
-  "outputs": 8,
-  "entities": 286,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-8_16x22_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   2
-  ],
-  "label": "16-10 [16x20]",
-  "label_clean": "16-10 [16x20]",
-  "inputs": 16,
-  "outputs": 10,
-  "entities": 197,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-10_16x20.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   3
-  ],
-  "label": "16-16 [16x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "16-16 [16x14] ([turbo-transport-belt]+)",
-  "inputs": 16,
-  "outputs": 16,
-  "entities": 211,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-16_16x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   4
-  ],
   "label": "16-16 [16x26] (Fractal, [item=turbo-transport-belt]+)",
   "label_clean": "16-16 [16x26] (Fractal, [turbo-transport-belt]+)",
   "inputs": 16,
@@ -7874,7 +6074,7 @@
   "index_path": [
    0,
    10,
-   5
+   2
   ],
   "label": "16-16 [16x29] (UT, [item=turbo-transport-belt]+)",
   "label_clean": "16-16 [16x29] (UT, [turbo-transport-belt]+)",
@@ -8109,30 +6309,6 @@
    "BELT BALANCER COMPENDIUM",
    "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
    "Bonus Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   1,
-   2,
-   2
-  ],
-  "label": "1-17 [17x8] (UT)",
-  "label_clean": "1-17 [17x8] (UT)",
-  "inputs": 1,
-  "outputs": 17,
-  "entities": 72,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-17_17x8_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
    "2-X"
   ],
   "index_path": [
@@ -8229,30 +6405,6 @@
    "BELT BALANCER COMPENDIUM",
    "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
    "Bonus Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   1,
-   5,
-   0
-  ],
-  "label": "7-13 [15x14]",
-  "label_clean": "7-13 [15x14]",
-  "inputs": 7,
-  "outputs": 13,
-  "entities": 158,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-13_15x14.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
    "8-X"
   ],
   "index_path": [
@@ -8269,30 +6421,6 @@
    4
   ],
   "file": "blueprints/chocpaint__8-X__8-13_15x13_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "11-X"
-  ],
-  "index_path": [
-   1,
-   7,
-   0
-  ],
-  "label": "11-10 [13x21] ([item=turbo-transport-belt]+)",
-  "label_clean": "11-10 [13x21] ([turbo-transport-belt]+)",
-  "inputs": 11,
-  "outputs": 10,
-  "entities": 205,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__11-X__11-10_13x21_item_turbo-transport-belt.txt",
   "desc": ""
  },
  {
@@ -8404,30 +6532,6 @@
    8,
    4
   ],
-  "label": "12-12 [12x17] (Inline, [item=turbo-transport-belt]+)",
-  "label_clean": "12-12 [12x17] (Inline, [turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 12,
-  "entities": 178,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-12_12x17_Inline_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   5
-  ],
   "label": "12-12 [22x12] (Split-3)",
   "label_clean": "12-12 [22x12] (Split-3)",
   "inputs": 12,
@@ -8450,7 +6554,7 @@
   "index_path": [
    1,
    8,
-   6
+   5
   ],
   "label": "12-25 [25x17] ([item=turbo-transport-belt]+)",
   "label_clean": "12-25 [25x17] ([turbo-transport-belt]+)",
@@ -8475,30 +6579,6 @@
    1,
    9,
    0
-  ],
-  "label": "15-6 [12x11]",
-  "label_clean": "15-6 [12x11]",
-  "inputs": 15,
-  "outputs": 6,
-  "entities": 141,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__15-X__15-6_12x11.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "15-X"
-  ],
-  "index_path": [
-   1,
-   9,
-   1
   ],
   "label": "15-10 [15x17]",
   "label_clean": "15-10 [15x17]",
@@ -8684,81 +6764,11 @@
   "book_path": [
    "BELT BALANCER COMPENDIUM",
    "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   7
-  ],
-  "label": "64-64 [64x46] (Weave)",
-  "label_clean": "64-64 [64x46] (Weave)",
-  "inputs": 64,
-  "outputs": 64,
-  "entities": 2422,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___64-64_64x46_Weave.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   8
-  ],
-  "label": "128-128 [128x72] (Weave)",
-  "label_clean": "128-128 [128x72] (Weave)",
-  "inputs": 128,
-  "outputs": 128,
-  "entities": 7315,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___128-128_128x72_Weave.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
    "Ugly Inferior Alternatives 👎👎👎"
   ],
   "index_path": [
    2,
    0
-  ],
-  "label": "4-8",
-  "label_clean": "4-8",
-  "inputs": 4,
-  "outputs": 8,
-  "entities": 67,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___4-8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   1
   ],
   "label": "4-9",
   "label_clean": "4-9",
@@ -8780,29 +6790,7 @@
   ],
   "index_path": [
    2,
-   2
-  ],
-  "label": "5-5",
-  "label_clean": "5-5",
-  "inputs": 5,
-  "outputs": 5,
-  "entities": 65,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___5-5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   3
+   1
   ],
   "label": "5-6",
   "label_clean": "5-6",
@@ -8824,7 +6812,7 @@
   ],
   "index_path": [
    2,
-   4
+   2
   ],
   "label": "5-7",
   "label_clean": "5-7",
@@ -8846,73 +6834,7 @@
   ],
   "index_path": [
    2,
-   5
-  ],
-  "label": "5-8",
-  "label_clean": "5-8",
-  "inputs": 5,
-  "outputs": 8,
-  "entities": 86,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___5-8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   6
-  ],
-  "label": "6-4",
-  "label_clean": "6-4",
-  "inputs": 6,
-  "outputs": 4,
-  "entities": 71,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___6-4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   7
-  ],
-  "label": "6-5",
-  "label_clean": "6-5",
-  "inputs": 6,
-  "outputs": 5,
-  "entities": 90,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___6-5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   8
+   3
   ],
   "label": "6-6",
   "label_clean": "6-6",
@@ -8934,95 +6856,7 @@
   ],
   "index_path": [
    2,
-   9
-  ],
-  "label": "6-8",
-  "label_clean": "6-8",
-  "inputs": 6,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
    4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___6-8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   10
-  ],
-  "label": "6-9",
-  "label_clean": "6-9",
-  "inputs": 6,
-  "outputs": 9,
-  "entities": 103,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___6-9.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   11
-  ],
-  "label": "7-5",
-  "label_clean": "7-5",
-  "inputs": 7,
-  "outputs": 5,
-  "entities": 102,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___7-5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   12
-  ],
-  "label": "7-7",
-  "label_clean": "7-7",
-  "inputs": 7,
-  "outputs": 7,
-  "entities": 80,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___7-7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   13
   ],
   "label": "7-8",
   "label_clean": "7-8",
@@ -9044,29 +6878,7 @@
   ],
   "index_path": [
    2,
-   14
-  ],
-  "label": "8-4",
-  "label_clean": "8-4",
-  "inputs": 8,
-  "outputs": 4,
-  "entities": 67,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   15
+   5
   ],
   "label": "8-5 (Inline)",
   "label_clean": "8-5 (Inline)",
@@ -9088,7 +6900,7 @@
   ],
   "index_path": [
    2,
-   16
+   6
   ],
   "label": "8-8 (Compact)",
   "label_clean": "8-8 (Compact)",
@@ -9110,117 +6922,7 @@
   ],
   "index_path": [
    2,
-   17
-  ],
-  "label": "8-6",
-  "label_clean": "8-6",
-  "inputs": 8,
-  "outputs": 6,
-  "entities": 102,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   18
-  ],
-  "label": "8-8 (Inline)",
-  "label_clean": "8-8 (Inline)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 80,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Inline.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   19
-  ],
-  "label": "8-8 (Corner)",
-  "label_clean": "8-8 (Corner)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 78,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   20
-  ],
-  "label": "8-8 (UT)",
-  "label_clean": "8-8 (UT)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 128,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   21
-  ],
-  "label": "8-8 (UT)",
-  "label_clean": "8-8 (UT)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 119,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_UT_1.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   22
+   7
   ],
   "label": "9-6",
   "label_clean": "9-6",
@@ -9242,7 +6944,7 @@
   ],
   "index_path": [
    2,
-   23
+   8
   ],
   "label": "9-9",
   "label_clean": "9-9",
@@ -9264,7 +6966,7 @@
   ],
   "index_path": [
    2,
-   24
+   9
   ],
   "label": "16-16",
   "label_clean": "16-16",
@@ -9275,28 +6977,6 @@
    4
   ],
   "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Ugly Inferior Alternatives 👎👎👎"
-  ],
-  "index_path": [
-   2,
-   25
-  ],
-  "label": "16-16",
-  "label_clean": "16-16",
-  "inputs": 16,
-  "outputs": 16,
-  "entities": 230,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16_1.txt",
   "desc": ""
  }
 ]

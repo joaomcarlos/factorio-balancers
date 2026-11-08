@@ -19,7 +19,7 @@ footprints, lane versions, sizes raynquist doesn't carry — sit next to the
 canonical designs in the same sections, marked by their `[WxH]` tags.
 
 <p align="center">
-  <a href="https://factoriobin.com/post/rgcfge"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/rgcfge"><img src="images/raynquist__8_to_x__8-8_8x12_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 

@@ -15,15 +15,15 @@ latest version on top. ChocPaint-unique variants (different footprints, lane
 versions, sizes raynquist doesn't carry) all remain in the lower book.
 
 <p align="center">
-  <a href="https://factoriobin.com/post/4z6rne"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/ioyb5l"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 
 | | |
 |---|---|
-| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/4z6rne)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
+| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/ioyb5l)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
 | Books individually | [raynquist turbo](strings/raynquist-fall-2025-turbo.txt) · [chocpaint turbo](strings/chocpaint-v3077-turbo.txt) · [raynquist original](strings/raynquist-fall-2025-original.txt) · [chocpaint original](strings/chocpaint-v3077-original.txt) |
-| Blueprints | 303 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
+| Blueprints | 293 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
 | Renders | Every balancer rendered below (Factorio 2.1.11 sprites, dirt terrain) |
 
 ---
@@ -593,24 +593,6 @@ Containing Balancers of 20 belts+
 | <img src="images/chocpaint__OVERSIZE_20-128___32-32_32x25_item_turbo-transport-belt.jpg" width="360"> | **32-32 [32x25] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___32-32_32x25_item_turbo-transport-belt.txt) | **32 → 32**<br>32 stacked turbo belts<br>≈ 7,680 items/s | needs turbo transport belt+ |
 | <img src="images/chocpaint__OVERSIZE_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.jpg" width="360"> | **32-32 [32x47] (Fractal, turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.txt) | **32 → 32**<br>32 stacked turbo belts<br>≈ 7,680 items/s | fractal design<br>needs turbo transport belt+ |
 | <img src="images/chocpaint__OVERSIZE_20-128___64-64_64x54_item_turbo-transport-belt.jpg" width="360"> | **64-64 [64x54] (turbo transport belt+)**<br>[`bp`](blueprints/chocpaint__OVERSIZE_20-128___64-64_64x54_item_turbo-transport-belt.txt) | **64 → 64**<br>64 stacked turbo belts<br>≈ 15,360 items/s | needs turbo transport belt+ |
-
-## Ugly Inferior Alternatives 👎👎👎
-
-Some alternatives to fast transport belt/express transport belt exclusive balancers (Outdated)
-
-
-| Preview | Balancer | Moves (fully stacked) | Notes |
-|---|---|---|---|
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___4-9.jpg" width="360"> | **4-9**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___4-9.txt) | **4 → 9**<br>4 stacked turbo belts<br>≈ 960 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-6.jpg" width="360"> | **5-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-6.txt) | **5 → 6**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___5-7.jpg" width="360"> | **5-7**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___5-7.txt) | **5 → 7**<br>5 stacked turbo belts<br>≈ 1,200 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___6-6.jpg" width="360"> | **6-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___6-6.txt) | **6 → 6**<br>6 stacked turbo belts<br>≈ 1,440 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___7-8.jpg" width="360"> | **7-8**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___7-8.txt) | **7 → 8**<br>7 stacked turbo belts<br>≈ 1,680 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-5_Inline.jpg" width="360"> | **8-5 (Inline)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-5_Inline.txt) | **8 → 5**<br>8 stacked turbo belts<br>≈ 1,920 items/s | inline |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___8-8_Compact.jpg" width="360"> | **8-8 (Compact)**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___8-8_Compact.txt) | **8 → 8**<br>8 stacked turbo belts<br>≈ 1,920 items/s | compact |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___9-6.jpg" width="360"> | **9-6**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___9-6.txt) | **9 → 6**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___9-9.jpg" width="360"> | **9-9**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___9-9.txt) | **9 → 9**<br>9 stacked turbo belts<br>≈ 2,160 items/s | — |
-| <img src="images/chocpaint__Ugly_Inferior_Alternatives___16-16.jpg" width="360"> | **16-16**<br>[`bp`](blueprints/chocpaint__Ugly_Inferior_Alternatives___16-16.txt) | **16 → 16**<br>16 stacked turbo belts<br>≈ 3,840 items/s | — |
 
 ## Helpful Deconstruction/Upgrade
 

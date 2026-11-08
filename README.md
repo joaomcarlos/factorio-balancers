@@ -9,6 +9,11 @@ upgrading required. Paste, stamp, feed it stacked turbo belts.
 - **[Raynquist's balancer book (fall 2025)](https://github.com/raynquist/balancer)** — the canonical collection, on top
 - **[ChocPaint's BELT BALANCER COMPENDIUM V30.77](https://factoriobin.com/post/vqf3io)** — every variant, size and shape, below
 
+<p align="center">
+  <a href="https://factoriobin.com/post/7c5sfy"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <i>The classic 8 → 8, turbo'd.</i>
+</p>
+
 | | |
 |---|---|
 | Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/7c5sfy)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |

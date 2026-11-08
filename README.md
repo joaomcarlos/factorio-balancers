@@ -1,4 +1,4 @@
-# Ultimate Belt Balancer Collection — Turbo Edition
+# Joao's Belt Balancer Collection — Turbo Edition
 
 Every belt balancer you will ever need, **defaulted to turbo (green) belts**.
 
@@ -19,13 +19,13 @@ footprints, lane versions, sizes raynquist doesn't carry — sit next to the
 canonical designs in the same sections, marked by their `[WxH]` tags.
 
 <p align="center">
-  <a href="https://factoriobin.com/post/hrn0yk"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/wxaabu"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 
 | | |
 |---|---|
-| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/hrn0yk)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
+| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/wxaabu)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
 | Books individually | [raynquist turbo](strings/raynquist-fall-2025-turbo.txt) · [chocpaint turbo](strings/chocpaint-v3077-turbo.txt) · [raynquist original](strings/raynquist-fall-2025-original.txt) · [chocpaint original](strings/chocpaint-v3077-original.txt) |
 | Blueprints | 293 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
 | Renders | Every balancer rendered below (Factorio 2.1.11 sprites, dirt terrain) |

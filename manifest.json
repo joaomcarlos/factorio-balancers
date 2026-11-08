@@ -1,78 +1,78 @@
 [
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
+   0,
    0
   ],
-  "label": "1-1 TU lane balancer",
-  "label_clean": "1-1 TU lane balancer",
+  "label": "1-2 [2x1] (UT)",
+  "label_clean": "1-2 [2x1] (UT)",
   "inputs": 1,
-  "outputs": 1,
+  "outputs": 2,
+  "entities": 4,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-2_2x1_UT.txt",
+  "desc": "Ha ha"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   1
+  ],
+  "label": "1-2 [3x4] (UT, Lane[virtual-signal=signal-alert])",
+  "label_clean": "1-2 [3x4] (UT, Lane[signal-alert])",
+  "inputs": 1,
+  "outputs": 2,
   "entities": 11,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__1_to_x__1-1_TU_lane_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
+  "file": "blueprints/chocpaint__1_to_x__1-2_3x4_UT_Lane_virtual-signal_signal-alert.txt",
+  "desc": ""
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
-   1
-  ],
-  "label": "1-1 TU lane balancer (alt)",
-  "label_clean": "1-1 TU lane balancer (alt)",
-  "inputs": 1,
-  "outputs": 1,
-  "entities": 12,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__1_to_x__1-1_TU_lane_balancer_alt.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "1 to x"
-  ],
-  "index_path": [
    0,
    2
   ],
-  "label": "1-1 TU lane corner balancer",
-  "label_clean": "1-1 TU lane corner balancer",
+  "label": "1-2 [3x6] (UT, Lane, [virtual-signal=signal-radioactivity])",
+  "label_clean": "1-2 [3x6] (UT, Lane, [signal-radioactivity])",
   "inputs": 1,
-  "outputs": 1,
-  "entities": 9,
+  "outputs": 2,
+  "entities": 15,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__1_to_x__1-1_TU_lane_corner_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
+  "file": "blueprints/chocpaint__1_to_x__1-2_3x6_UT_Lane_virtual-signal_signal-radioactivity.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
+   0,
    0,
    3
   ],
@@ -90,11 +90,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
+   0,
    0,
    4
   ],
@@ -112,11 +112,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
+   0,
    0,
    5
   ],
@@ -132,15 +132,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
+   0,
    6
+  ],
+  "label": "1-5 [5x6] (UT)",
+  "label_clean": "1-5 [5x6] (UT)",
+  "inputs": 1,
+  "outputs": 5,
+  "entities": 25,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-5_5x6_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   7
   ],
   "label": "1-6 TU balancer",
   "label_clean": "1-6 TU balancer",
@@ -156,13 +178,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
-   7
+   0,
+   8
   ],
   "label": "1-7 TU balancer",
   "label_clean": "1-7 TU balancer",
@@ -176,15 +198,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
-   8
+   0,
+   9
+  ],
+  "label": "1-7 [7x5] (UT)",
+  "label_clean": "1-7 [7x5] (UT)",
+  "inputs": 1,
+  "outputs": 7,
+  "entities": 26,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-7_7x5_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   10
   ],
   "label": "1-8 TU balancer",
   "label_clean": "1-8 TU balancer",
@@ -200,13 +244,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "1 to x"
   ],
   "index_path": [
    0,
-   9
+   0,
+   11
   ],
   "label": "1-9 TU balancer",
   "label_clean": "1-9 TU balancer",
@@ -220,59 +264,169 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   12
+  ],
+  "label": "1-10 [10x6] (UT, Fractal)",
+  "label_clean": "1-10 [10x6] (UT, Fractal)",
+  "inputs": 1,
+  "outputs": 10,
+  "entities": 50,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-10_10x6_UT_Fractal.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   13
+  ],
+  "label": "1-12 [12x5] (UT)",
+  "label_clean": "1-12 [12x5] (UT)",
+  "inputs": 1,
+  "outputs": 12,
+  "entities": 36,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-12_12x5_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   14
+  ],
+  "label": "1-16 [16x4] (UT)",
+  "label_clean": "1-16 [16x4] (UT)",
+  "inputs": 1,
+  "outputs": 16,
+  "entities": 48,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__1_to_x__1-16_16x4_UT.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
+   "1 to x"
+  ],
+  "index_path": [
+   0,
+   0,
+   15
+  ],
+  "label": "1-17 balancer",
+  "label_clean": "1-17 balancer",
+  "inputs": 1,
+  "outputs": 17,
+  "entities": 72,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__1_to_x__1-17_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
    0
   ],
-  "label": "2-2 lane balancer",
-  "label_clean": "2-2 lane balancer",
+  "label": "2-1 [2x3] (UT, Lane[virtual-signal=signal-alert], Corner)",
+  "label_clean": "2-1 [2x3] (UT, Lane[signal-alert], Corner)",
   "inputs": 2,
-  "outputs": 2,
-  "entities": 16,
+  "outputs": 1,
+  "entities": 7,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__2_to_x__2-2_lane_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+  "file": "blueprints/chocpaint__2_to_x__2-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt",
+  "desc": ""
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
    1
   ],
-  "label": "2-2 lane corner balancer",
-  "label_clean": "2-2 lane corner balancer",
+  "label": "2-1 [3x3] (UT, Lane[virtual-signal=signal-alert], Straight)",
+  "label_clean": "2-1 [3x3] (UT, Lane[signal-alert], Straight)",
   "inputs": 2,
-  "outputs": 2,
-  "entities": 13,
+  "outputs": 1,
+  "entities": 9,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__2_to_x__2-2_lane_corner_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+  "file": "blueprints/chocpaint__2_to_x__2-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   2
+  ],
+  "label": "2-2 [2x1] (UT)",
+  "label_clean": "2-2 [2x1] (UT)",
+  "inputs": 2,
+  "outputs": 2,
+  "entities": 5,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__2_to_x__2-2_2x1_UT.txt",
+  "desc": "Ha ha"
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   2
+   3
   ],
   "label": "2-3 TU balancer",
   "label_clean": "2-3 TU balancer",
@@ -288,33 +442,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
-   1,
-   3
-  ],
-  "label": "2-4 balancer",
-  "label_clean": "2-4 balancer",
-  "inputs": 2,
-  "outputs": 4,
-  "entities": 9,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__2_to_x__2-4_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "2 to x"
-  ],
-  "index_path": [
+   0,
    1,
    4
   ],
@@ -332,13 +464,57 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
    5
+  ],
+  "label": "2-4 balancer",
+  "label_clean": "2-4 balancer",
+  "inputs": 2,
+  "outputs": 4,
+  "entities": 9,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__2_to_x__2-4_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   6
+  ],
+  "label": "2-4 [4x3] (UT[virtual-signal=signal-alert], Compact)",
+  "label_clean": "2-4 [4x3] (UT[signal-alert], Compact)",
+  "inputs": 2,
+  "outputs": 4,
+  "entities": 13,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__2_to_x__2-4_4x3_UT_virtual-signal_signal-alert_Compact.txt",
+  "desc": "UT, assuming both inputs are already balanced"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   7
   ],
   "label": "2-5 balancer",
   "label_clean": "2-5 balancer",
@@ -354,13 +530,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   6
+   8
   ],
   "label": "2-6 balancer",
   "label_clean": "2-6 balancer",
@@ -376,13 +552,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   7
+   9
   ],
   "label": "2-7 balancer",
   "label_clean": "2-7 balancer",
@@ -396,37 +572,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   8
+   10
   ],
-  "label": "2-8 balancer",
-  "label_clean": "2-8 balancer",
+  "label": "2x7 [7x6]",
+  "label_clean": "2x7 [7x6]",
   "inputs": 2,
-  "outputs": 8,
-  "entities": 21,
+  "outputs": 7,
+  "entities": 36,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__2_to_x__2-8_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__2_to_x__2x7_7x6.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   9
+   11
   ],
   "label": "2-8 TU balancer",
   "label_clean": "2-8 TU balancer",
@@ -442,13 +618,35 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "2 to x"
   ],
   "index_path": [
+   0,
    1,
-   10
+   12
+  ],
+  "label": "2-8 balancer",
+  "label_clean": "2-8 balancer",
+  "inputs": 2,
+  "outputs": 8,
+  "entities": 21,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__2_to_x__2-8_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   13
   ],
   "label": "2-9 balancer",
   "label_clean": "2-9 balancer",
@@ -462,13 +660,79 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   14
+  ],
+  "label": "2-10 [10x6] (Fractal)",
+  "label_clean": "2-10 [10x6] (Fractal)",
+  "inputs": 2,
+  "outputs": 10,
+  "entities": 51,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__2_to_x__2-10_10x6_Fractal.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   15
+  ],
+  "label": "2-12 [12x6]",
+  "label_clean": "2-12 [12x6]",
+  "inputs": 2,
+  "outputs": 12,
+  "entities": 56,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__2_to_x__2-12_12x6.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "2 to x"
+  ],
+  "index_path": [
+   0,
+   1,
+   16
+  ],
+  "label": "2-16 [16x4]",
+  "label_clean": "2-16 [16x4]",
+  "inputs": 2,
+  "outputs": 16,
+  "entities": 49,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__2_to_x__2-16_16x4.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
    0
   ],
@@ -484,15 +748,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
    1
+  ],
+  "label": "3-1 [4x5] (UT)",
+  "label_clean": "3-1 [4x5] (UT)",
+  "inputs": 3,
+  "outputs": 1,
+  "entities": 18,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__3_to_x__3-1_4x5_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "3 to x"
+  ],
+  "index_path": [
+   0,
+   2,
+   2
   ],
   "label": "3-2 TU balancer",
   "label_clean": "3-2 TU balancer",
@@ -506,37 +792,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   2
+   3
   ],
-  "label": "3-3 lane balancer",
-  "label_clean": "3-3 lane balancer",
+  "label": "3-2 [4x6] (UT)",
+  "label_clean": "3-2 [4x6] (UT)",
   "inputs": 3,
-  "outputs": 3,
-  "entities": 42,
+  "outputs": 2,
+  "entities": 24,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__3_to_x__3-3_lane_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+  "file": "blueprints/chocpaint__3_to_x__3-2_4x6_UT.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   3
+   4
   ],
   "label": "3-3 TU balancer",
   "label_clean": "3-3 TU balancer",
@@ -552,13 +838,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   4
+   5
   ],
   "label": "3-3 TU corner balancer",
   "label_clean": "3-3 TU corner balancer",
@@ -572,15 +858,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   5
+   6
+  ],
+  "label": "3-3 [5x6]",
+  "label_clean": "3-3 [5x6]",
+  "inputs": 3,
+  "outputs": 3,
+  "entities": 26,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__3_to_x__3-3_5x6.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "3 to x"
+  ],
+  "index_path": [
+   0,
+   2,
+   7
   ],
   "label": "3-4 TU balancer",
   "label_clean": "3-4 TU balancer",
@@ -596,13 +904,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   6
+   8
   ],
   "label": "3-5 balancer",
   "label_clean": "3-5 balancer",
@@ -616,37 +924,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   7
+   9
   ],
-  "label": "3-6 balancer",
-  "label_clean": "3-6 balancer",
+  "label": "3-5 [7x10] (UT)",
+  "label_clean": "3-5 [7x10] (UT)",
   "inputs": 3,
-  "outputs": 6,
-  "entities": 30,
+  "outputs": 5,
+  "entities": 56,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__3_to_x__3-6_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__3_to_x__3-5_7x10_UT.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   8
+   10
   ],
   "label": "3-6 TU balancer",
   "label_clean": "3-6 TU balancer",
@@ -662,13 +970,35 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   9
+   11
+  ],
+  "label": "3-6 balancer",
+  "label_clean": "3-6 balancer",
+  "inputs": 3,
+  "outputs": 6,
+  "entities": 30,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__3_to_x__3-6_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "3 to x"
+  ],
+  "index_path": [
+   0,
+   2,
+   12
   ],
   "label": "3-7 balancer",
   "label_clean": "3-7 balancer",
@@ -682,15 +1012,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   10
+   13
+  ],
+  "label": "3-7 [9x7] (Mid)",
+  "label_clean": "3-7 [9x7] (Mid)",
+  "inputs": 3,
+  "outputs": 7,
+  "entities": 53,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__3_to_x__3-7_9x7_Mid.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "3 to x"
+  ],
+  "index_path": [
+   0,
+   2,
+   14
   ],
   "label": "3-8 balancer",
   "label_clean": "3-8 balancer",
@@ -706,13 +1058,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "3 to x"
   ],
   "index_path": [
+   0,
    2,
-   11
+   15
   ],
   "label": "3-9 balancer",
   "label_clean": "3-9 balancer",
@@ -728,11 +1080,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
    0
   ],
@@ -748,37 +1100,59 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
    1
   ],
-  "label": "4-2 balancer",
-  "label_clean": "4-2 balancer",
+  "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Corner)",
+  "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Corner)",
   "inputs": 4,
-  "outputs": 2,
-  "entities": 9,
+  "outputs": 1,
+  "entities": 12,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__4_to_x__4-2_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__4_to_x__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Corner.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   2
+  ],
+  "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Straight)",
+  "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Straight)",
+  "inputs": 4,
+  "outputs": 1,
+  "entities": 14,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Straight.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   2
+   3
   ],
   "label": "4-2 TU balancer",
   "label_clean": "4-2 TU balancer",
@@ -794,13 +1168,35 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   3
+   4
+  ],
+  "label": "4-2 balancer",
+  "label_clean": "4-2 balancer",
+  "inputs": 4,
+  "outputs": 2,
+  "entities": 9,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__4_to_x__4-2_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   5
   ],
   "label": "4-3 TU balancer",
   "label_clean": "4-3 TU balancer",
@@ -814,81 +1210,59 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
-   3,
-   4
-  ],
-  "label": "4-4 lane balancer",
-  "label_clean": "4-4 lane balancer",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 42,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__4_to_x__4-4_lane_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "4 to x"
-  ],
-  "index_path": [
-   3,
-   5
-  ],
-  "label": "4-4 lane balancer (alt)",
-  "label_clean": "4-4 lane balancer (alt)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 44,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__4_to_x__4-4_lane_balancer_alt.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "4 to x"
-  ],
-  "index_path": [
+   0,
    3,
    6
   ],
-  "label": "4-4 lane corner balancer",
-  "label_clean": "4-4 lane corner balancer",
+  "label": "4-3 [6x6]",
+  "label_clean": "4-3 [6x6]",
   "inputs": 4,
-  "outputs": 4,
-  "entities": 42,
+  "outputs": 3,
+  "entities": 31,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__4_to_x__4-4_lane_corner_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+  "file": "blueprints/chocpaint__4_to_x__4-3_6x6.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   7
+  ],
+  "label": "4-3 [7x7] (UT)",
+  "label_clean": "4-3 [7x7] (UT)",
+  "inputs": 4,
+  "outputs": 3,
+  "entities": 39,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-3_7x7_UT.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   7
+   8
   ],
   "label": "4-4 TU balancer",
   "label_clean": "4-4 TU balancer",
@@ -904,13 +1278,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   8
+   9
   ],
   "label": "4-4 TU corner balancer",
   "label_clean": "4-4 TU corner balancer",
@@ -926,13 +1300,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   9
+   10
   ],
   "label": "4-4 TU merge balancer",
   "label_clean": "4-4 TU merge balancer",
@@ -948,13 +1322,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   10
+   11
   ],
   "label": "4-4 TU split balancer",
   "label_clean": "4-4 TU split balancer",
@@ -968,15 +1342,81 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   11
+   12
+  ],
+  "label": "4-4 [4x8] (UT)",
+  "label_clean": "4-4 [4x8] (UT)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 32,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-4_4x8_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   13
+  ],
+  "label": "4-4 [6x7] (UT, Corner, Compact-Tall)",
+  "label_clean": "4-4 [6x7] (UT, Corner, Compact-Tall)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 34,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-4_6x7_UT_Corner_Compact-Tall.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   14
+  ],
+  "label": "4-4 [8x5] (UT, Corner, Compact-Wide)",
+  "label_clean": "4-4 [8x5] (UT, Corner, Compact-Wide)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 38,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-4_8x5_UT_Corner_Compact-Wide.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   15
   ],
   "label": "4-5 balancer",
   "label_clean": "4-5 balancer",
@@ -990,37 +1430,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   12
+   16
   ],
-  "label": "4-6 balancer",
-  "label_clean": "4-6 balancer",
+  "label": "4-5 [8x9]",
+  "label_clean": "4-5 [8x9]",
   "inputs": 4,
-  "outputs": 6,
-  "entities": 51,
+  "outputs": 5,
+  "entities": 57,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__4_to_x__4-6_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__4_to_x__4-5_8x9.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   13
+   17
   ],
   "label": "4-6 TU balancer",
   "label_clean": "4-6 TU balancer",
@@ -1036,13 +1476,57 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   14
+   18
+  ],
+  "label": "4-6 balancer",
+  "label_clean": "4-6 balancer",
+  "inputs": 4,
+  "outputs": 6,
+  "entities": 51,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__4_to_x__4-6_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   19
+  ],
+  "label": "4-6 [8x10] (UT)",
+  "label_clean": "4-6 [8x10] (UT)",
+  "inputs": 4,
+  "outputs": 6,
+  "entities": 71,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-6_8x10_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   20
   ],
   "label": "4-7 balancer",
   "label_clean": "4-7 balancer",
@@ -1058,35 +1542,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   15
-  ],
-  "label": "4-8 balancer",
-  "label_clean": "4-8 balancer",
-  "inputs": 4,
-  "outputs": 8,
-  "entities": 36,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__4_to_x__4-8_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "4 to x"
-  ],
-  "index_path": [
-   3,
-   16
+   21
   ],
   "label": "4-8 TU balancer",
   "label_clean": "4-8 TU balancer",
@@ -1102,13 +1564,57 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   17
+   22
+  ],
+  "label": "4-8 balancer",
+  "label_clean": "4-8 balancer",
+  "inputs": 4,
+  "outputs": 8,
+  "entities": 36,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__4_to_x__4-8_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   23
+  ],
+  "label": "4-8 [8x10] (UT)",
+  "label_clean": "4-8 [8x10] (UT)",
+  "inputs": 4,
+  "outputs": 8,
+  "entities": 66,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-8_8x10_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   24
   ],
   "label": "4-9 balancer",
   "label_clean": "4-9 balancer",
@@ -1122,15 +1628,59 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "4 to x"
   ],
   "index_path": [
+   0,
    3,
-   18
+   25
+  ],
+  "label": "4-10 [10x7] (Unbalanced, Fractal)",
+  "label_clean": "4-10 [10x7] (Unbalanced, Fractal)",
+  "inputs": 4,
+  "outputs": 10,
+  "entities": 61,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-10_10x7_Unbalanced_Fractal.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   26
+  ],
+  "label": "4-10 [12x15] (UT)",
+  "label_clean": "4-10 [12x15] (UT)",
+  "inputs": 4,
+  "outputs": 10,
+  "entities": 155,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-10_12x15_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   27
   ],
   "label": "4-12 TU balancer",
   "label_clean": "4-12 TU balancer",
@@ -1144,13 +1694,57 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   28
+  ],
+  "label": "4-12 [12x14] (UT)",
+  "label_clean": "4-12 [12x14] (UT)",
+  "inputs": 4,
+  "outputs": 12,
+  "entities": 131,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-12_12x14_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "4 to x"
+  ],
+  "index_path": [
+   0,
+   3,
+   29
+  ],
+  "label": "4-16 [16x5]",
+  "label_clean": "4-16 [16x5]",
+  "inputs": 4,
+  "outputs": 16,
+  "entities": 67,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__4_to_x__4-16_16x5.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
    0
   ],
@@ -1168,11 +1762,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
    1
   ],
@@ -1188,15 +1782,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
    2
+  ],
+  "label": "5-2 [5x7]",
+  "label_clean": "5-2 [5x7]",
+  "inputs": 5,
+  "outputs": 2,
+  "entities": 31,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-2_5x7.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   3
   ],
   "label": "5-3 balancer",
   "label_clean": "5-3 balancer",
@@ -1210,15 +1826,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   3
+   4
+  ],
+  "label": "5-3 [8x8]",
+  "label_clean": "5-3 [8x8]",
+  "inputs": 5,
+  "outputs": 3,
+  "entities": 57,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-3_8x8.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   5
   ],
   "label": "5-4 balancer",
   "label_clean": "5-4 balancer",
@@ -1234,13 +1872,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   4
+   6
   ],
   "label": "5-5 balancer",
   "label_clean": "5-5 balancer",
@@ -1254,15 +1892,59 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   5
+   7
+  ],
+  "label": "5-5 [5x15] (Inline)",
+  "label_clean": "5-5 [5x15] (Inline)",
+  "inputs": 5,
+  "outputs": 5,
+  "entities": 68,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-5_5x15_Inline.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   8
+  ],
+  "label": "5-5 [7x10]",
+  "label_clean": "5-5 [7x10]",
+  "inputs": 5,
+  "outputs": 5,
+  "entities": 62,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-5_7x10.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   9
   ],
   "label": "5-6 balancer",
   "label_clean": "5-6 balancer",
@@ -1278,13 +1960,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   6
+   10
   ],
   "label": "5-7 balancer",
   "label_clean": "5-7 balancer",
@@ -1300,13 +1982,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   7
+   11
   ],
   "label": "5-8 balancer",
   "label_clean": "5-8 balancer",
@@ -1322,13 +2004,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "5 to x"
   ],
   "index_path": [
+   0,
    4,
-   8
+   12
   ],
   "label": "5-9 balancer",
   "label_clean": "5-9 balancer",
@@ -1342,13 +2024,57 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   13
+  ],
+  "label": "5-9 [9x16] ([item=turbo-transport-belt]+)",
+  "label_clean": "5-9 [9x16] ([turbo-transport-belt]+)",
+  "inputs": 5,
+  "outputs": 9,
+  "entities": 115,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-9_9x16_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "5 to x"
+  ],
+  "index_path": [
+   0,
+   4,
+   14
+  ],
+  "label": "5-10 [10x11] (Fractal, Unbalanced)",
+  "label_clean": "5-10 [10x11] (Fractal, Unbalanced)",
+  "inputs": 5,
+  "outputs": 10,
+  "entities": 79,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__5_to_x__5-10_10x11_Fractal_Unbalanced.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
    0
   ],
@@ -1364,15 +2090,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
    1
+  ],
+  "label": "6-1 [6x5] (UT)",
+  "label_clean": "6-1 [6x5] (UT)",
+  "inputs": 6,
+  "outputs": 1,
+  "entities": 21,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__6_to_x__6-1_6x5_UT.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   2
   ],
   "label": "6-2 balancer",
   "label_clean": "6-2 balancer",
@@ -1388,33 +2136,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
-   5,
-   2
-  ],
-  "label": "6-3 balancer",
-  "label_clean": "6-3 balancer",
-  "inputs": 6,
-  "outputs": 3,
-  "entities": 30,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__6_to_x__6-3_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "6 to x"
-  ],
-  "index_path": [
+   0,
    5,
    3
   ],
@@ -1432,35 +2158,57 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
    4
   ],
-  "label": "6-4 balancer",
-  "label_clean": "6-4 balancer",
+  "label": "6-3 balancer",
+  "label_clean": "6-3 balancer",
   "inputs": 6,
-  "outputs": 4,
-  "entities": 52,
+  "outputs": 3,
+  "entities": 30,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__6_to_x__6-4_balancer.txt",
+  "file": "blueprints/raynquist__6_to_x__6-3_balancer.txt",
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   5
+  ],
+  "label": "6-3 [7x5]",
+  "label_clean": "6-3 [7x5]",
+  "inputs": 6,
+  "outputs": 3,
+  "entities": 30,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__6_to_x__6-3_7x5.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   5
+   6
   ],
   "label": "6-4 TU balancer",
   "label_clean": "6-4 TU balancer",
@@ -1476,13 +2224,35 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   6
+   7
+  ],
+  "label": "6-4 balancer",
+  "label_clean": "6-4 balancer",
+  "inputs": 6,
+  "outputs": 4,
+  "entities": 52,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__6_to_x__6-4_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   8
   ],
   "label": "6-5 balancer",
   "label_clean": "6-5 balancer",
@@ -1498,13 +2268,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   7
+   9
   ],
   "label": "6-6 balancer",
   "label_clean": "6-6 balancer",
@@ -1520,13 +2290,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   8
+   10
   ],
   "label": "6-6 corner balancer",
   "label_clean": "6-6 corner balancer",
@@ -1540,37 +2310,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   9
+   11
   ],
-  "label": "6-6 lane balancer",
-  "label_clean": "6-6 lane balancer",
+  "label": "6-6 [7x10] ([item=turbo-transport-belt]+)",
+  "label_clean": "6-6 [7x10] ([turbo-transport-belt]+)",
   "inputs": 6,
   "outputs": 6,
-  "entities": 102,
+  "entities": 68,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__6_to_x__6-6_lane_balancer.txt",
-  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+  "file": "blueprints/chocpaint__6_to_x__6-6_7x10_item_turbo-transport-belt.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   10
+   12
   ],
   "label": "6-7 balancer",
   "label_clean": "6-7 balancer",
@@ -1584,15 +2354,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   11
+   13
+  ],
+  "label": "6-7 [9x13]",
+  "label_clean": "6-7 [9x13]",
+  "inputs": 6,
+  "outputs": 7,
+  "entities": 96,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__6_to_x__6-7_9x13.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   14
   ],
   "label": "6-8 balancer",
   "label_clean": "6-8 balancer",
@@ -1606,15 +2398,37 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "6 to x"
   ],
   "index_path": [
+   0,
    5,
-   12
+   15
+  ],
+  "label": "6-8 [8x11] (Mid, [item=turbo-transport-belt]+)",
+  "label_clean": "6-8 [8x11] (Mid, [turbo-transport-belt]+)",
+  "inputs": 6,
+  "outputs": 8,
+  "entities": 78,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__6_to_x__6-8_8x11_Mid_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   16
   ],
   "label": "6-9 balancer",
   "label_clean": "6-9 balancer",
@@ -1628,13 +2442,35 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "6 to x"
+  ],
+  "index_path": [
+   0,
+   5,
+   17
+  ],
+  "label": "6-9 [9x14] ([item=turbo-transport-belt]+)",
+  "label_clean": "6-9 [9x14] ([turbo-transport-belt]+)",
+  "inputs": 6,
+  "outputs": 9,
+  "entities": 101,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__6_to_x__6-9_9x14_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
    0
   ],
@@ -1652,11 +2488,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
    1
   ],
@@ -1672,15 +2508,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
    2
+  ],
+  "label": "7-2 [7x5]",
+  "label_clean": "7-2 [7x5]",
+  "inputs": 7,
+  "outputs": 2,
+  "entities": 34,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-2_7x5.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   3
   ],
   "label": "7-3 balancer",
   "label_clean": "7-3 balancer",
@@ -1694,15 +2552,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   3
+   4
+  ],
+  "label": "7-3 [9x8]",
+  "label_clean": "7-3 [9x8]",
+  "inputs": 7,
+  "outputs": 3,
+  "entities": 53,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-3_9x8.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   5
   ],
   "label": "7-4 balancer",
   "label_clean": "7-4 balancer",
@@ -1718,13 +2598,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   4
+   6
   ],
   "label": "7-5 balancer",
   "label_clean": "7-5 balancer",
@@ -1738,15 +2618,37 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   5
+   7
+  ],
+  "label": "7-5 [9x13]",
+  "label_clean": "7-5 [9x13]",
+  "inputs": 7,
+  "outputs": 5,
+  "entities": 97,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-5_9x13.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   8
   ],
   "label": "7-6 balancer",
   "label_clean": "7-6 balancer",
@@ -1760,15 +2662,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   6
+   9
+  ],
+  "label": "7-6 [9x13]",
+  "label_clean": "7-6 [9x13]",
+  "inputs": 7,
+  "outputs": 6,
+  "entities": 96,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-6_9x13.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   10
   ],
   "label": "7-7 balancer",
   "label_clean": "7-7 balancer",
@@ -1784,13 +2708,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   7
+   11
   ],
   "label": "7-8 balancer",
   "label_clean": "7-8 balancer",
@@ -1804,15 +2728,59 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "7 to x"
   ],
   "index_path": [
+   0,
    6,
-   8
+   12
+  ],
+  "label": "7-8 [8x14] ([item=turbo-transport-belt]+)",
+  "label_clean": "7-8 [8x14] ([turbo-transport-belt]+)",
+  "inputs": 7,
+  "outputs": 8,
+  "entities": 97,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-8_8x14_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   13
+  ],
+  "label": "7-8 [9x13] ([item=turbo-transport-belt]+)",
+  "label_clean": "7-8 [9x13] ([turbo-transport-belt]+)",
+  "inputs": 7,
+  "outputs": 8,
+  "entities": 98,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-8_9x13_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   14
   ],
   "label": "7-9 balancer",
   "label_clean": "7-9 balancer",
@@ -1826,13 +2794,79 @@
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   15
+  ],
+  "label": "7-9 [12x16] ([item=turbo-transport-belt]+)",
+  "label_clean": "7-9 [12x16] ([turbo-transport-belt]+)",
+  "inputs": 7,
+  "outputs": 9,
+  "entities": 168,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__7_to_x__7-9_12x16_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   16
+  ],
+  "label": "7-10 balancer",
+  "label_clean": "7-10 balancer",
+  "inputs": 7,
+  "outputs": 10,
+  "entities": 138,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__7_to_x__7-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "7 to x"
+  ],
+  "index_path": [
+   0,
+   6,
+   17
+  ],
+  "label": "7-13 balancer",
+  "label_clean": "7-13 balancer",
+  "inputs": 7,
+  "outputs": 13,
+  "entities": 158,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__7_to_x__7-13_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
    0
   ],
@@ -1848,35 +2882,35 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
    1
   ],
-  "label": "8-2 balancer",
-  "label_clean": "8-2 balancer",
+  "label": "8-1 [8x4] (UT, Lane[virtual-signal=signal-alert])",
+  "label_clean": "8-1 [8x4] (UT, Lane[signal-alert])",
   "inputs": 8,
-  "outputs": 2,
-  "entities": 21,
+  "outputs": 1,
+  "entities": 26,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__8_to_x__8-2_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__8_to_x__8-1_8x4_UT_Lane_virtual-signal_signal-alert.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
    2
   ],
@@ -1894,13 +2928,57 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
    3
+  ],
+  "label": "8-2 balancer",
+  "label_clean": "8-2 balancer",
+  "inputs": 8,
+  "outputs": 2,
+  "entities": 21,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-2_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   4
+  ],
+  "label": "8-2 [8x4] (Lane[virtual-signal=signal-alert])",
+  "label_clean": "8-2 [8x4] (Lane[signal-alert])",
+  "inputs": 8,
+  "outputs": 2,
+  "entities": 27,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-2_8x4_Lane_virtual-signal_signal-alert.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   5
   ],
   "label": "8-3 balancer",
   "label_clean": "8-3 balancer",
@@ -1914,37 +2992,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   4
+   6
   ],
-  "label": "8-4 balancer",
-  "label_clean": "8-4 balancer",
+  "label": "8-3 [8x8]",
+  "label_clean": "8-3 [8x8]",
   "inputs": 8,
-  "outputs": 4,
-  "entities": 40,
+  "outputs": 3,
+  "entities": 47,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__8_to_x__8-4_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+  "file": "blueprints/chocpaint__8_to_x__8-3_8x8.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   5
+   7
   ],
   "label": "8-4 TU balancer",
   "label_clean": "8-4 TU balancer",
@@ -1960,13 +3038,35 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   6
+   8
+  ],
+  "label": "8-4 balancer",
+  "label_clean": "8-4 balancer",
+  "inputs": 8,
+  "outputs": 4,
+  "entities": 40,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-4_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   9
   ],
   "label": "8-5 balancer",
   "label_clean": "8-5 balancer",
@@ -1980,15 +3080,59 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   7
+   10
+  ],
+  "label": "8-5 [8x12]",
+  "label_clean": "8-5 [8x12]",
+  "inputs": 8,
+  "outputs": 5,
+  "entities": 83,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-5_8x12.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   11
+  ],
+  "label": "8-5 [8x13] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-5 [8x13] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 5,
+  "entities": 89,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-5_8x13_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   12
   ],
   "label": "8-6 balancer",
   "label_clean": "8-6 balancer",
@@ -2002,15 +3146,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   8
+   13
+  ],
+  "label": "8-6 [8x11]",
+  "label_clean": "8-6 [8x11]",
+  "inputs": 8,
+  "outputs": 6,
+  "entities": 76,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-6_8x11.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   14
   ],
   "label": "8-7 balancer",
   "label_clean": "8-7 balancer",
@@ -2026,123 +3192,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   9
-  ],
-  "label": "8-8 balancer",
-  "label_clean": "8-8 balancer",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__8_to_x__8-8_balancer.txt",
-  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "8 to x"
-  ],
-  "index_path": [
-   7,
-   10
-  ],
-  "label": "8-8 corner balancer",
-  "label_clean": "8-8 corner balancer",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__8_to_x__8-8_corner_balancer.txt",
-  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "8 to x"
-  ],
-  "index_path": [
-   7,
-   11
-  ],
-  "label": "8-8 split balancer",
-  "label_clean": "8-8 split balancer",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__8_to_x__8-8_split_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "8 to x"
-  ],
-  "index_path": [
-   7,
-   12
-  ],
-  "label": "8-8 merge balancer",
-  "label_clean": "8-8 merge balancer",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__8_to_x__8-8_merge_balancer.txt",
-  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "8 to x"
-  ],
-  "index_path": [
-   7,
-   13
-  ],
-  "label": "8-8 lane balancer",
-  "label_clean": "8-8 lane balancer",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 121,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__8_to_x__8-8_lane_balancer.txt",
-  "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "8 to x"
-  ],
-  "index_path": [
-   7,
-   14
+   15
   ],
   "label": "8-8 TU balancer",
   "label_clean": "8-8 TU balancer",
@@ -2158,13 +3214,233 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   15
+   16
+  ],
+  "label": "8-8 balancer",
+  "label_clean": "8-8 balancer",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 76,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-8_balancer.txt",
+  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   17
+  ],
+  "label": "8-8 corner balancer",
+  "label_clean": "8-8 corner balancer",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 76,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-8_corner_balancer.txt",
+  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   18
+  ],
+  "label": "8-8 merge balancer",
+  "label_clean": "8-8 merge balancer",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 77,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-8_merge_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   19
+  ],
+  "label": "8-8 split balancer",
+  "label_clean": "8-8 split balancer",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 77,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-8_split_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   20
+  ],
+  "label": "8-8 [10x15] (UT, Split-2, [item=turbo-transport-belt]+)",
+  "label_clean": "8-8 [10x15] (UT, Split-2, [turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 127,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_10x15_UT_Split-2_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   21
+  ],
+  "label": "8-8 [11x8] (Edge-In)",
+  "label_clean": "8-8 [11x8] (Edge-In)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 77,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_11x8_Edge-In.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   22
+  ],
+  "label": "8-8 [11x8] (Split-2)",
+  "label_clean": "8-8 [11x8] (Split-2)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 79,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_11x8_Split-2.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   23
+  ],
+  "label": "8-8 [12x8] (Split-4)",
+  "label_clean": "8-8 [12x8] (Split-4)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 78,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_12x8_Split-4.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   24
+  ],
+  "label": "8-8 [8x15] (Fractal)",
+  "label_clean": "8-8 [8x15] (Fractal)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 114,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_8x15_Fractal.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   25
+  ],
+  "label": "8-8 [8x16] (UT, [item=turbo-transport-belt]+)",
+  "label_clean": "8-8 [8x16] (UT, [turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 118,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-8_8x16_UT_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   26
   ],
   "label": "8-9 balancer",
   "label_clean": "8-9 balancer",
@@ -2178,15 +3454,59 @@
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "8 to x"
   ],
   "index_path": [
+   0,
    7,
-   16
+   27
+  ],
+  "label": "8-9 [11x14] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-9 [11x14] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 9,
+  "entities": 137,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-9_11x14_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   28
+  ],
+  "label": "8-9 [9x17] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-9 [9x17] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 9,
+  "entities": 131,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-9_9x17_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   29
   ],
   "label": "8-10 balancer",
   "label_clean": "8-10 balancer",
@@ -2200,13 +3520,145 @@
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   30
+  ],
+  "label": "8-10 [10x14] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-10 [10x14] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 10,
+  "entities": 124,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-10_10x14_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   31
+  ],
+  "label": "8-12 balancer",
+  "label_clean": "8-12 balancer",
+  "inputs": 8,
+  "outputs": 12,
+  "entities": 127,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-12_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   32
+  ],
+  "label": "8-12 [12x12] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-12 [12x12] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 12,
+  "entities": 127,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-12_12x12_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   33
+  ],
+  "label": "8-13 balancer",
+  "label_clean": "8-13 balancer",
+  "inputs": 8,
+  "outputs": 13,
+  "entities": 156,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__8_to_x__8-13_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   34
+  ],
+  "label": "8-13 [15x13] ([item=turbo-transport-belt]+)",
+  "label_clean": "8-13 [15x13] ([turbo-transport-belt]+)",
+  "inputs": 8,
+  "outputs": 13,
+  "entities": 156,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-13_15x13_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "8 to x"
+  ],
+  "index_path": [
+   0,
+   7,
+   35
+  ],
+  "label": "8-16 [16x8]",
+  "label_clean": "8-16 [16x8]",
+  "inputs": 8,
+  "outputs": 16,
+  "entities": 103,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__8_to_x__8-16_16x8.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
    0
   ],
@@ -2224,11 +3676,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
    1
   ],
@@ -2244,15 +3696,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
    2
+  ],
+  "label": "9-2 [10x7]",
+  "label_clean": "9-2 [10x7]",
+  "inputs": 9,
+  "outputs": 2,
+  "entities": 51,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__9_to_x__9-2_10x7.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   3
   ],
   "label": "9-3 balancer",
   "label_clean": "9-3 balancer",
@@ -2266,15 +3740,37 @@
   "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
-   3
+   4
+  ],
+  "label": "9-3 [10x8]",
+  "label_clean": "9-3 [10x8]",
+  "inputs": 9,
+  "outputs": 3,
+  "entities": 64,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__9_to_x__9-3_10x8.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   5
   ],
   "label": "9-4 balancer",
   "label_clean": "9-4 balancer",
@@ -2288,15 +3784,37 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
+   6
+  ],
+  "label": "9-4 [9x10]",
+  "label_clean": "9-4 [9x10]",
+  "inputs": 9,
+  "outputs": 4,
+  "entities": 79,
+  "belt_tiers": [
    4
+  ],
+  "file": "blueprints/chocpaint__9_to_x__9-4_9x10.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   7
   ],
   "label": "9-5 balancer",
   "label_clean": "9-5 balancer",
@@ -2312,13 +3830,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
-   5
+   8
   ],
   "label": "9-6 balancer",
   "label_clean": "9-6 balancer",
@@ -2332,15 +3850,37 @@
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
-   6
+   9
+  ],
+  "label": "9-6 [9x14] ([item=turbo-transport-belt]+)",
+  "label_clean": "9-6 [9x14] ([turbo-transport-belt]+)",
+  "inputs": 9,
+  "outputs": 6,
+  "entities": 101,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__9_to_x__9-6_9x14_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   10
   ],
   "label": "9-7 balancer",
   "label_clean": "9-7 balancer",
@@ -2356,13 +3896,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
-   7
+   11
   ],
   "label": "9-8 balancer",
   "label_clean": "9-8 balancer",
@@ -2378,13 +3918,13 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "belt balancers",
    "9 to x"
   ],
   "index_path": [
+   0,
    8,
-   8
+   12
   ],
   "label": "9-9 balancer",
   "label_clean": "9-9 balancer",
@@ -2400,11 +3940,77 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "9 to x"
   ],
   "index_path": [
+   0,
+   8,
+   13
+  ],
+  "label": "9-10 balancer",
+  "label_clean": "9-10 balancer",
+  "inputs": 9,
+  "outputs": 10,
+  "entities": 197,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__9_to_x__9-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   14
+  ],
+  "label": "9-12 balancer",
+  "label_clean": "9-12 balancer",
+  "inputs": 9,
+  "outputs": 12,
+  "entities": 154,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__9_to_x__9-12_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "9 to x"
+  ],
+  "index_path": [
+   0,
+   8,
+   15
+  ],
+  "label": "9-12 [12x16]",
+  "label_clean": "9-12 [12x16]",
+  "inputs": 9,
+  "outputs": 12,
+  "entities": 154,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__9_to_x__9-12_12x16.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "10 to x"
+  ],
+  "index_path": [
+   0,
    9,
    0
   ],
@@ -2416,17 +4022,17 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__10-8_balancer.txt",
+  "file": "blueprints/raynquist__10_to_x__10-8_balancer.txt",
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "10 to x"
   ],
   "index_path": [
+   0,
    9,
    1
   ],
@@ -2438,19 +4044,85 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__10-10_balancer.txt",
+  "file": "blueprints/raynquist__10_to_x__10-10_balancer.txt",
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "10 to x"
+  ],
+  "index_path": [
+   0,
+   9,
+   2
+  ],
+  "label": "10-10 [11x15] ([item=turbo-transport-belt]+)",
+  "label_clean": "10-10 [11x15] ([turbo-transport-belt]+)",
+  "inputs": 10,
+  "outputs": 10,
+  "entities": 147,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__10_to_x__10-10_11x15_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "10 to x"
+  ],
+  "index_path": [
+   0,
+   9,
+   3
+  ],
+  "label": "10-12 [10x20] ([item=turbo-transport-belt]+)",
+  "label_clean": "10-12 [10x20] ([turbo-transport-belt]+)",
+  "inputs": 10,
+  "outputs": 12,
+  "entities": 199,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__10_to_x__10-12_10x20_item_turbo-transport-belt.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "11 to x"
   ],
   "index_path": [
-   9,
-   2
+   0,
+   10,
+   0
+  ],
+  "label": "11-10 balancer",
+  "label_clean": "11-10 balancer",
+  "inputs": 11,
+  "outputs": 10,
+  "entities": 205,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__11_to_x__11-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   0
   ],
   "label": "12-4 TU balancer",
   "label_clean": "12-4 TU balancer",
@@ -2460,19 +4132,107 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__12-4_TU_balancer.txt",
+  "file": "blueprints/raynquist__12_to_x__12-4_TU_balancer.txt",
   "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   1
+  ],
+  "label": "12-4 [12x14] (UT, [item=turbo-transport-belt]+)",
+  "label_clean": "12-4 [12x14] (UT, [turbo-transport-belt]+)",
+  "inputs": 12,
+  "outputs": 4,
+  "entities": 131,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-4_12x14_UT_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   2
+  ],
+  "label": "12-8 [12x18] ([item=turbo-transport-belt]+)",
+  "label_clean": "12-8 [12x18] ([turbo-transport-belt]+)",
+  "inputs": 12,
+  "outputs": 8,
+  "entities": 148,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-8_12x18_item_turbo-transport-belt.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "12 to x"
   ],
   "index_path": [
-   9,
+   0,
+   11,
    3
+  ],
+  "label": "12-10 balancer",
+  "label_clean": "12-10 balancer",
+  "inputs": 12,
+  "outputs": 10,
+  "entities": 199,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__12_to_x__12-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   4
+  ],
+  "label": "12-10 [12x20] ([item=turbo-transport-belt]+)",
+  "label_clean": "12-10 [12x20] ([turbo-transport-belt]+)",
+  "inputs": 12,
+  "outputs": 10,
+  "entities": 199,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-10_12x20_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   5
   ],
   "label": "12-12 balancer",
   "label_clean": "12-12 balancer",
@@ -2482,19 +4242,239 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__12-12_balancer.txt",
+  "file": "blueprints/raynquist__12_to_x__12-12_balancer.txt",
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   6
+  ],
+  "label": "12-12 [14x15] ([item=turbo-transport-belt]+)",
+  "label_clean": "12-12 [14x15] ([turbo-transport-belt]+)",
+  "inputs": 12,
+  "outputs": 12,
+  "entities": 183,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-12_14x15_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   7
+  ],
+  "label": "12-12 [22x12] (Split-3)",
+  "label_clean": "12-12 [22x12] (Split-3)",
+  "inputs": 12,
+  "outputs": 12,
+  "entities": 216,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-12_22x12_Split-3.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "12 to x"
   ],
   "index_path": [
-   9,
+   0,
+   11,
+   8
+  ],
+  "label": "12-25 balancer",
+  "label_clean": "12-25 balancer",
+  "inputs": 12,
+  "outputs": 25,
+  "entities": 329,
+  "belt_tiers": [
    4
+  ],
+  "file": "blueprints/raynquist__12_to_x__12-25_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "12 to x"
+  ],
+  "index_path": [
+   0,
+   11,
+   9
+  ],
+  "label": "12-25 [25x17] ([item=turbo-transport-belt]+)",
+  "label_clean": "12-25 [25x17] ([turbo-transport-belt]+)",
+  "inputs": 12,
+  "outputs": 25,
+  "entities": 329,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__12_to_x__12-25_25x17_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "15 to x"
+  ],
+  "index_path": [
+   0,
+   12,
+   0
+  ],
+  "label": "15-6 balancer",
+  "label_clean": "15-6 balancer",
+  "inputs": 15,
+  "outputs": 6,
+  "entities": 141,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__15_to_x__15-6_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "15 to x"
+  ],
+  "index_path": [
+   0,
+   12,
+   1
+  ],
+  "label": "15-10 balancer",
+  "label_clean": "15-10 balancer",
+  "inputs": 15,
+  "outputs": 10,
+  "entities": 206,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__15_to_x__15-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "15 to x"
+  ],
+  "index_path": [
+   0,
+   12,
+   2
+  ],
+  "label": "15-10 [15x17]",
+  "label_clean": "15-10 [15x17]",
+  "inputs": 15,
+  "outputs": 10,
+  "entities": 206,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__15_to_x__15-10_15x17.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   0
+  ],
+  "label": "16-8 TU balancer",
+  "label_clean": "16-8 TU balancer",
+  "inputs": 16,
+  "outputs": 8,
+  "entities": 286,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__16_to_x__16-8_TU_balancer.txt",
+  "desc": "Throughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   1
+  ],
+  "label": "16-8 [16x8] (Split-2)",
+  "label_clean": "16-8 [16x8] (Split-2)",
+  "inputs": 16,
+  "outputs": 8,
+  "entities": 103,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__16_to_x__16-8_16x8_Split-2.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   2
+  ],
+  "label": "16-10 balancer",
+  "label_clean": "16-10 balancer",
+  "inputs": 16,
+  "outputs": 10,
+  "entities": 197,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__16_to_x__16-10_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   3
   ],
   "label": "16-16 balancer",
   "label_clean": "16-16 balancer",
@@ -2504,18 +4484,172 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__16-16_balancer.txt",
+  "file": "blueprints/raynquist__16_to_x__16-16_balancer.txt",
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   4
+  ],
+  "label": "16-16 [16x26] (Fractal, [item=turbo-transport-belt]+)",
+  "label_clean": "16-16 [16x26] (Fractal, [turbo-transport-belt]+)",
+  "inputs": 16,
+  "outputs": 16,
+  "entities": 394,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__16_to_x__16-16_16x26_Fractal_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "16 to x"
+  ],
+  "index_path": [
+   0,
+   13,
+   5
+  ],
+  "label": "16-16 [16x29] (UT, [item=turbo-transport-belt]+)",
+  "label_clean": "16-16 [16x29] (UT, [turbo-transport-belt]+)",
+  "inputs": 16,
+  "outputs": 16,
+  "entities": 422,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__16_to_x__16-16_16x29_UT_item_turbo-transport-belt.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "oversize (20-128)"
   ],
   "index_path": [
-   9,
+   0,
+   14,
+   0
+  ],
+  "label": "20-15 balancer",
+  "label_clean": "20-15 balancer",
+  "inputs": 20,
+  "outputs": 15,
+  "entities": 277,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__oversize_20-128___20-15_balancer.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   1
+  ],
+  "label": "20-15 ([item=turbo-transport-belt]+)",
+  "label_clean": "20-15 ([turbo-transport-belt]+)",
+  "inputs": 20,
+  "outputs": 15,
+  "entities": 277,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___20-15_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   2
+  ],
+  "label": "20-20 [24x39] ([item=turbo-transport-belt]+)",
+  "label_clean": "20-20 [24x39] ([turbo-transport-belt]+)",
+  "inputs": 20,
+  "outputs": 20,
+  "entities": 799,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___20-20_24x39_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   3
+  ],
+  "label": "24-24 [44x23] (Split-6, [item=turbo-transport-belt]+)",
+  "label_clean": "24-24 [44x23] (Split-6, [turbo-transport-belt]+)",
+  "inputs": 24,
+  "outputs": 24,
+  "entities": 723,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___24-24_44x23_Split-6_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   4
+  ],
+  "label": "24-24 [24x43] (Inline, [item=turbo-transport-belt]+)",
+  "label_clean": "24-24 [24x43] (Inline, [turbo-transport-belt]+)",
+  "inputs": 24,
+  "outputs": 24,
+  "entities": 917,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___24-24_24x43_Inline_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
    5
   ],
   "label": "32-32 balancer (32x25)",
@@ -2526,19 +4660,63 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__32-32_balancer_32x25.txt",
+  "file": "blueprints/raynquist__oversize_20-128___32-32_balancer_32x25.txt",
   "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]"
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   6
+  ],
+  "label": "32-32 [32x25] ([item=turbo-transport-belt]+)",
+  "label_clean": "32-32 [32x25] ([turbo-transport-belt]+)",
+  "inputs": 32,
+  "outputs": 32,
+  "entities": 727,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___32-32_32x25_item_turbo-transport-belt.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   7
+  ],
+  "label": "32-32 [32x47] (Fractal, [item=turbo-transport-belt]+)",
+  "label_clean": "32-32 [32x47] (Fractal, [turbo-transport-belt]+)",
+  "inputs": 32,
+  "outputs": 32,
+  "entities": 1380,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.txt",
+  "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "oversize (20-128)"
   ],
   "index_path": [
-   9,
-   6
+   0,
+   14,
+   8
   ],
   "label": "64-64 balancer (64x46)",
   "label_clean": "64-64 balancer (64x46)",
@@ -2548,19 +4726,41 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__64-64_balancer_64x46.txt",
+  "file": "blueprints/raynquist__oversize_20-128___64-64_balancer_64x46.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "belt balancers",
+   "oversize (20-128)"
+  ],
+  "index_path": [
+   0,
+   14,
+   9
+  ],
+  "label": "64-64 [64x54] ([item=turbo-transport-belt]+)",
+  "label_clean": "64-64 [64x54] ([turbo-transport-belt]+)",
+  "inputs": 64,
+  "outputs": 64,
+  "entities": 2560,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__oversize_20-128___64-64_64x54_item_turbo-transport-belt.txt",
   "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers"
+   "belt balancers",
+   "oversize (20-128)"
   ],
   "index_path": [
-   9,
-   7
+   0,
+   14,
+   10
   ],
   "label": "128-128 balancer (128x72)",
   "label_clean": "128-128 balancer (128x72)",
@@ -2570,378 +4770,496 @@
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__other_balancers__128-128_balancer_128x72.txt",
+  "file": "blueprints/raynquist__oversize_20-128___128-128_balancer_128x72.txt",
   "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    0
   ],
-  "label": "1-17 balancer",
-  "label_clean": "1-17 balancer",
+  "label": "1-1 TU lane balancer",
+  "label_clean": "1-1 TU lane balancer",
   "inputs": 1,
-  "outputs": 17,
-  "entities": 72,
+  "outputs": 1,
+  "entities": 11,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__1-17_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__1-1_TU_lane_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    1
   ],
-  "label": "7-10 balancer",
-  "label_clean": "7-10 balancer",
-  "inputs": 7,
-  "outputs": 10,
-  "entities": 138,
+  "label": "1-1 TU lane balancer (alt)",
+  "label_clean": "1-1 TU lane balancer (alt)",
+  "inputs": 1,
+  "outputs": 1,
+  "entities": 12,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__7-10_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__1-1_TU_lane_balancer_alt.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    2
   ],
-  "label": "7-13 balancer",
-  "label_clean": "7-13 balancer",
-  "inputs": 7,
-  "outputs": 13,
-  "entities": 158,
+  "label": "1-1 TU lane corner balancer",
+  "label_clean": "1-1 TU lane corner balancer",
+  "inputs": 1,
+  "outputs": 1,
+  "entities": 9,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__7-13_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__1-1_TU_lane_corner_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt.\n\nThroughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    3
   ],
-  "label": "8-12 balancer",
-  "label_clean": "8-12 balancer",
-  "inputs": 8,
-  "outputs": 12,
-  "entities": 127,
+  "label": "1-1 [2x3] (UT, Lane[virtual-signal=signal-alert], Corner)",
+  "label_clean": "1-1 [2x3] (UT, Lane[signal-alert], Corner)",
+  "inputs": 1,
+  "outputs": 1,
+  "entities": 6,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__8-12_balancer.txt",
+  "file": "blueprints/chocpaint__lane_balancers__1-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   4
+  ],
+  "label": "1-1 [3x3] (UT, Lane[virtual-signal=signal-alert], Straight)",
+  "label_clean": "1-1 [3x3] (UT, Lane[signal-alert], Straight)",
+  "inputs": 1,
+  "outputs": 1,
+  "entities": 8,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_balancers__1-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt",
   "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
-   4
-  ],
-  "label": "8-13 balancer",
-  "label_clean": "8-13 balancer",
-  "inputs": 8,
-  "outputs": 13,
-  "entities": 156,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/raynquist__miscellaneous__8-13_balancer.txt",
-  "desc": ""
- },
- {
-  "source": "raynquist",
-  "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
-  ],
-  "index_path": [
-   9,
-   8,
+   1,
    5
   ],
-  "label": "9-10 balancer",
-  "label_clean": "9-10 balancer",
-  "inputs": 9,
-  "outputs": 10,
-  "entities": 197,
+  "label": "2-2 lane balancer",
+  "label_clean": "2-2 lane balancer",
+  "inputs": 2,
+  "outputs": 2,
+  "entities": 16,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__9-10_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__2-2_lane_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    6
   ],
-  "label": "9-12 balancer",
-  "label_clean": "9-12 balancer",
-  "inputs": 9,
-  "outputs": 12,
-  "entities": 154,
+  "label": "2-2 lane corner balancer",
+  "label_clean": "2-2 lane corner balancer",
+  "inputs": 2,
+  "outputs": 2,
+  "entities": 13,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__9-12_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__2-2_lane_corner_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    7
   ],
-  "label": "11-10 balancer",
-  "label_clean": "11-10 balancer",
-  "inputs": 11,
-  "outputs": 10,
-  "entities": 205,
+  "label": "2-2 [2x12] (Lane, Inline, [virtual-signal=signal-radioactivity])",
+  "label_clean": "2-2 [2x12] (Lane, Inline, [signal-radioactivity])",
+  "inputs": 2,
+  "outputs": 2,
+  "entities": 25,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__11-10_balancer.txt",
+  "file": "blueprints/chocpaint__lane_balancers__2-2_2x12_Lane_Inline_virtual-signal_signal-radioactivity.txt",
   "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    8
   ],
-  "label": "12-10 balancer",
-  "label_clean": "12-10 balancer",
-  "inputs": 12,
-  "outputs": 10,
-  "entities": 199,
+  "label": "3-3 lane balancer",
+  "label_clean": "3-3 lane balancer",
+  "inputs": 3,
+  "outputs": 3,
+  "entities": 42,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__12-10_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__3-3_lane_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    9
   ],
-  "label": "12-25 balancer",
-  "label_clean": "12-25 balancer",
-  "inputs": 12,
-  "outputs": 25,
-  "entities": 329,
+  "label": "4-4 lane balancer",
+  "label_clean": "4-4 lane balancer",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 42,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__12-25_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__4-4_lane_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    10
   ],
-  "label": "15-6 balancer",
-  "label_clean": "15-6 balancer",
-  "inputs": 15,
-  "outputs": 6,
-  "entities": 141,
+  "label": "4-4 lane balancer (alt)",
+  "label_clean": "4-4 lane balancer (alt)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 44,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__15-6_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__4-4_lane_balancer_alt.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    11
   ],
-  "label": "15-10 balancer",
-  "label_clean": "15-10 balancer",
-  "inputs": 15,
-  "outputs": 10,
-  "entities": 206,
+  "label": "4-4 lane corner balancer",
+  "label_clean": "4-4 lane corner balancer",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 42,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__15-10_balancer.txt",
-  "desc": ""
+  "file": "blueprints/raynquist__lane_balancers__4-4_lane_corner_balancer.txt",
+  "desc": "Compatible:[item=underground-belt][item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    12
   ],
-  "label": "16-8 TU balancer",
-  "label_clean": "16-8 TU balancer",
-  "inputs": 16,
-  "outputs": 8,
-  "entities": 286,
+  "label": "4-4 [4x13] (Lane, Inline, [virtual-signal=signal-radioactivity])",
+  "label_clean": "4-4 [4x13] (Lane, Inline, [signal-radioactivity])",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 51,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__16-8_TU_balancer.txt",
-  "desc": "Throughput-unlimited (TU) balancers always provide full throughput.  Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized."
+  "file": "blueprints/chocpaint__lane_balancers__4-4_4x13_Lane_Inline_virtual-signal_signal-radioactivity.txt",
+  "desc": ""
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    13
   ],
-  "label": "16-10 balancer",
-  "label_clean": "16-10 balancer",
-  "inputs": 16,
-  "outputs": 10,
-  "entities": 197,
+  "label": "4-4 [6x8] (Lane, Straight, [virtual-signal=signal-alert][virtual-signal=signal-radioactivity])",
+  "label_clean": "4-4 [6x8] (Lane, Straight, [signal-alert][signal-radioactivity])",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 38,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__16-10_balancer.txt",
-  "desc": ""
+  "file": "blueprints/chocpaint__lane_balancers__4-4_6x8_Lane_Straight_virtual-signal_signal-alert_virtual-signal_signal-radioactivity.txt",
+  "desc": "Warning: Beware unconnected EW underground belts."
  },
  {
-  "source": "raynquist",
+  "source": "chocpaint",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
-   "other balancers",
-   "miscellaneous"
+   "lane balancers"
   ],
   "index_path": [
-   9,
-   8,
+   1,
    14
   ],
-  "label": "20-15 balancer",
-  "label_clean": "20-15 balancer",
-  "inputs": 20,
-  "outputs": 15,
-  "entities": 277,
+  "label": "4-4 [8x18] (UT, Lane)",
+  "label_clean": "4-4 [8x18] (UT, Lane)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 106,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/raynquist__miscellaneous__20-15_balancer.txt",
+  "file": "blueprints/chocpaint__lane_balancers__4-4_8x18_UT_Lane.txt",
   "desc": ""
  },
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   15
+  ],
+  "label": "6-6 lane balancer",
+  "label_clean": "6-6 lane balancer",
+  "inputs": 6,
+  "outputs": 6,
+  "entities": 102,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__lane_balancers__6-6_lane_balancer.txt",
+  "desc": "Compatible:[item=fast-underground-belt][item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   16
+  ],
+  "label": "6-6 [9x13] (Lane)",
+  "label_clean": "6-6 [9x13] (Lane)",
+  "inputs": 6,
+  "outputs": 6,
+  "entities": 102,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_balancers__6-6_9x13_Lane.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   17
+  ],
+  "label": "8-8 lane balancer",
+  "label_clean": "8-8 lane balancer",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 121,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/raynquist__lane_balancers__8-8_lane_balancer.txt",
+  "desc": "Compatible:[item=express-underground-belt][item=turbo-underground-belt]\n\nLane balancers also balance both sides of each belt."
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   18
+  ],
+  "label": "8-8 [16x31] (UT, Lane)",
+  "label_clean": "8-8 [16x31] (UT, Lane)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 323,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_balancers__8-8_16x31_UT_Lane.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane balancers"
+  ],
+  "index_path": [
+   1,
+   19
+  ],
+  "label": "16-16 [30x40] (UT, Lane)",
+  "label_clean": "16-16 [30x40] (UT, Lane)",
+  "inputs": 16,
+  "outputs": 16,
+  "entities": 785,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_balancers__16-16_30x40_UT_Lane.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane splitters"
+  ],
+  "index_path": [
+   2,
+   0
+  ],
+  "label": "2+2=4 [4x8] (Edge-Slim)",
+  "label_clean": "2+2=4 [4x8] (Edge-Slim)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 26,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_splitters__2_2_4_4x8_Edge-Slim.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane splitters"
+  ],
+  "index_path": [
+   2,
+   1
+  ],
+  "label": "2+2=4 [6x5] (Edge-Wide)",
+  "label_clean": "2+2=4 [6x5] (Edge-Wide)",
+  "inputs": 4,
+  "outputs": 4,
+  "entities": 32,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_splitters__2_2_4_6x5_Edge-Wide.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane splitters"
+  ],
+  "index_path": [
+   2,
+   2
+  ],
+  "label": "4+4=8 [10x7] (Edge)",
+  "label_clean": "4+4=8 [10x7] (Edge)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 56,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_splitters__4_4_8_10x7_Edge.txt",
+  "desc": ""
+ },
+ {
+  "source": "chocpaint",
+  "book_path": [
+   "lane splitters"
+  ],
+  "index_path": [
+   2,
+   3
+  ],
+  "label": "4+4=8 [8x16] (Inline)",
+  "label_clean": "4+4=8 [8x16] (Inline)",
+  "inputs": 8,
+  "outputs": 8,
+  "entities": 116,
+  "belt_tiers": [
+   4
+  ],
+  "file": "blueprints/chocpaint__lane_splitters__4_4_8_8x16_Inline.txt",
+  "desc": ""
+ },
+ {
+  "source": "raynquist",
+  "book_path": [
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    0
   ],
   "label": "4-8 TU balancer",
@@ -2958,12 +5276,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    1
   ],
   "label": "5-5 balancer",
@@ -2980,12 +5296,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    2
   ],
   "label": "5-6 balancer",
@@ -3002,12 +5316,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    3
   ],
   "label": "5-7 balancer",
@@ -3024,12 +5336,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    4
   ],
   "label": "5-8 balancer",
@@ -3046,12 +5356,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    5
   ],
   "label": "6-4 TU balancer",
@@ -3068,12 +5376,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    6
   ],
   "label": "6-5 balancer",
@@ -3090,12 +5396,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    7
   ],
   "label": "6-6 balancer",
@@ -3112,12 +5416,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    8
   ],
   "label": "6-8 balancer",
@@ -3134,12 +5436,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    9
   ],
   "label": "6-9 balancer",
@@ -3156,12 +5456,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    10
   ],
   "label": "7-5 balancer",
@@ -3178,12 +5476,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    11
   ],
   "label": "7-7 balancer",
@@ -3200,12 +5496,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    12
   ],
   "label": "7-8 balancer",
@@ -3222,12 +5516,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    13
   ],
   "label": "8-4 TU balancer",
@@ -3244,12 +5536,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    14
   ],
   "label": "8-5 balancer",
@@ -3266,12 +5556,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    15
   ],
   "label": "8-7 balancer",
@@ -3288,12 +5576,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    16
   ],
   "label": "8-8 balancer",
@@ -3310,12 +5596,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    17
   ],
   "label": "8-8 corner balancer",
@@ -3332,12 +5616,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    18
   ],
   "label": "8-8 TU balancer",
@@ -3354,12 +5636,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    19
   ],
   "label": "9-4 balancer",
@@ -3376,12 +5656,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    20
   ],
   "label": "9-6 balancer",
@@ -3398,12 +5676,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "downgrades"
   ],
   "index_path": [
-   10,
+   3,
    21
   ],
   "label": "16-16 balancer",
@@ -3420,12 +5696,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    0
   ],
   "label": "What's with the [item=deconstruction-planner] filter?",
@@ -3442,12 +5716,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    1
   ],
   "label": "Why does the 4-4 have two extra splitters at the end?",
@@ -3464,12 +5736,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    2
   ],
   "label": "What does TU mean?",
@@ -3486,12 +5756,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    3
   ],
   "label": "What does L mean?",
@@ -3508,12 +5776,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    4
   ],
   "label": "Don't splitters already balance lanes?",
@@ -3530,12 +5796,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    5
   ],
   "label": "Why not just use a splitter then sideload the 2 belts onto 1 belt to balance lanes?",
@@ -3552,12 +5816,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    6
   ],
   "label": "Why do the lane balancers only balance half the lanes?",
@@ -3574,12 +5836,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    7
   ],
   "label": "Isn't the 2-2 lane balancer TU?",
@@ -3596,12 +5856,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    8
   ],
   "label": "Why is the balancer not mixing the items?",
@@ -3618,12 +5876,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    9
   ],
   "label": "Why don't you take the 4-4 TU balancer and omit one input and/or output to make a smaller balancer?",
@@ -3640,12 +5896,10 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ"
   ],
   "index_path": [
-   11,
+   4,
    10
   ],
   "label": "Where can I find the latest version of this book?",
@@ -3662,13 +5916,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?"
   ],
   "index_path": [
-   11,
+   4,
    11,
    0
   ],
@@ -3686,13 +5938,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?"
   ],
   "index_path": [
-   11,
+   4,
    11,
    1
   ],
@@ -3710,13 +5960,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?"
   ],
   "index_path": [
-   11,
+   4,
    11,
    2
   ],
@@ -3734,13 +5982,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?"
   ],
   "index_path": [
-   11,
+   4,
    11,
    3
   ],
@@ -3758,13 +6004,11 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?"
   ],
   "index_path": [
-   11,
+   4,
    11,
    4
   ],
@@ -3782,14 +6026,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    0
@@ -3808,14 +6050,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    1
@@ -3834,14 +6074,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    2
@@ -3860,14 +6098,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    3
@@ -3886,14 +6122,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    4
@@ -3912,14 +6146,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    5
@@ -3938,14 +6170,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    6
@@ -3964,14 +6194,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    7
@@ -3990,14 +6218,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    8
@@ -4016,14 +6242,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    9
@@ -4042,14 +6266,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    10
@@ -4068,14 +6290,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    11
@@ -4094,14 +6314,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    12
@@ -4120,14 +6338,12 @@
  {
   "source": "raynquist",
   "book_path": [
-   "balancer book (fall 2025)",
-   "balancer book (fall 2025)",
    "FAQ",
    "How do I make my own balancers?",
    "Advanced techniques"
   ],
   "index_path": [
-   11,
+   4,
    11,
    5,
    13
@@ -4142,2621 +6358,5 @@
   ],
   "file": "blueprints/raynquist__Advanced_techniques__Balancer_layout_generator.txt",
   "desc": "Balancer layouts can be auto-generated using Factorio-SAT.\n\nhttps://github.com/R-O-C-K-E-T/Factorio-SAT\nhttps://www.reddit.com/r/factorio/comments/u7zv6d/balancer_book_update_spring_2022/i5hvmxw/\n"
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   0
-  ],
-  "label": "1-1 [3x3] (UT, Lane[virtual-signal=signal-alert], Straight)",
-  "label_clean": "1-1 [3x3] (UT, Lane[signal-alert], Straight)",
-  "inputs": 1,
-  "outputs": 1,
-  "entities": 8,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   1
-  ],
-  "label": "1-1 [2x3] (UT, Lane[virtual-signal=signal-alert], Corner)",
-  "label_clean": "1-1 [2x3] (UT, Lane[signal-alert], Corner)",
-  "inputs": 1,
-  "outputs": 1,
-  "entities": 6,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   2
-  ],
-  "label": "1-2 [2x1] (UT)",
-  "label_clean": "1-2 [2x1] (UT)",
-  "inputs": 1,
-  "outputs": 2,
-  "entities": 4,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-2_2x1_UT.txt",
-  "desc": "Ha ha"
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   3
-  ],
-  "label": "1-2 [3x4] (UT, Lane[virtual-signal=signal-alert])",
-  "label_clean": "1-2 [3x4] (UT, Lane[signal-alert])",
-  "inputs": 1,
-  "outputs": 2,
-  "entities": 11,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-2_3x4_UT_Lane_virtual-signal_signal-alert.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   4
-  ],
-  "label": "1-2 [3x6] (UT, Lane, [virtual-signal=signal-radioactivity])",
-  "label_clean": "1-2 [3x6] (UT, Lane, [signal-radioactivity])",
-  "inputs": 1,
-  "outputs": 2,
-  "entities": 15,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-2_3x6_UT_Lane_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   5
-  ],
-  "label": "1-5 [5x6] (UT)",
-  "label_clean": "1-5 [5x6] (UT)",
-  "inputs": 1,
-  "outputs": 5,
-  "entities": 25,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-5_5x6_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   6
-  ],
-  "label": "1-7 [7x5] (UT)",
-  "label_clean": "1-7 [7x5] (UT)",
-  "inputs": 1,
-  "outputs": 7,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-7_7x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   0,
-   0,
-   7
-  ],
-  "label": "1-10 [10x6] (UT, Fractal)",
-  "label_clean": "1-10 [10x6] (UT, Fractal)",
-  "inputs": 1,
-  "outputs": 10,
-  "entities": 50,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-10_10x6_UT_Fractal.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   0
-  ],
-  "label": "2-1 [3x3] (UT, Lane[virtual-signal=signal-alert], Straight)",
-  "label_clean": "2-1 [3x3] (UT, Lane[signal-alert], Straight)",
-  "inputs": 2,
-  "outputs": 1,
-  "entities": 9,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-1_3x3_UT_Lane_virtual-signal_signal-alert_Straight.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   1
-  ],
-  "label": "2-1 [2x3] (UT, Lane[virtual-signal=signal-alert], Corner)",
-  "label_clean": "2-1 [2x3] (UT, Lane[signal-alert], Corner)",
-  "inputs": 2,
-  "outputs": 1,
-  "entities": 7,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-1_2x3_UT_Lane_virtual-signal_signal-alert_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   2
-  ],
-  "label": "2-2 [2x1] (UT)",
-  "label_clean": "2-2 [2x1] (UT)",
-  "inputs": 2,
-  "outputs": 2,
-  "entities": 5,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-2_2x1_UT.txt",
-  "desc": "Ha ha"
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   3
-  ],
-  "label": "2-2 [2x12] (Lane, Inline, [virtual-signal=signal-radioactivity])",
-  "label_clean": "2-2 [2x12] (Lane, Inline, [signal-radioactivity])",
-  "inputs": 2,
-  "outputs": 2,
-  "entities": 25,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-2_2x12_Lane_Inline_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   4
-  ],
-  "label": "2-4 [4x3] (UT[virtual-signal=signal-alert], Compact)",
-  "label_clean": "2-4 [4x3] (UT[signal-alert], Compact)",
-  "inputs": 2,
-  "outputs": 4,
-  "entities": 13,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-4_4x3_UT_virtual-signal_signal-alert_Compact.txt",
-  "desc": "UT, assuming both inputs are already balanced"
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   5
-  ],
-  "label": "2x7 [7x6]",
-  "label_clean": "2x7 [7x6]",
-  "inputs": 2,
-  "outputs": 7,
-  "entities": 36,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2x7_7x6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   0,
-   1,
-   6
-  ],
-  "label": "2-10 [10x6] (Fractal)",
-  "label_clean": "2-10 [10x6] (Fractal)",
-  "inputs": 2,
-  "outputs": 10,
-  "entities": 51,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-10_10x6_Fractal.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   0
-  ],
-  "label": "3-1 [4x5] (UT)",
-  "label_clean": "3-1 [4x5] (UT)",
-  "inputs": 3,
-  "outputs": 1,
-  "entities": 18,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-1_4x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   1
-  ],
-  "label": "3-2 [4x6] (UT)",
-  "label_clean": "3-2 [4x6] (UT)",
-  "inputs": 3,
-  "outputs": 2,
-  "entities": 24,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-2_4x6_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   2
-  ],
-  "label": "3-3 [5x6]",
-  "label_clean": "3-3 [5x6]",
-  "inputs": 3,
-  "outputs": 3,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-3_5x6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   3
-  ],
-  "label": "3-5 [7x10] (UT)",
-  "label_clean": "3-5 [7x10] (UT)",
-  "inputs": 3,
-  "outputs": 5,
-  "entities": 56,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-5_7x10_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "3-X"
-  ],
-  "index_path": [
-   0,
-   2,
-   4
-  ],
-  "label": "3-7 [9x7] (Mid)",
-  "label_clean": "3-7 [9x7] (Mid)",
-  "inputs": 3,
-  "outputs": 7,
-  "entities": 53,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__3-X__3-7_9x7_Mid.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   0
-  ],
-  "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Straight)",
-  "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Straight)",
-  "inputs": 4,
-  "outputs": 1,
-  "entities": 14,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Straight.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   1
-  ],
-  "label": "4-1 [4x4] (UT, Lane[virtual-signal=signal-alert], Corner)",
-  "label_clean": "4-1 [4x4] (UT, Lane[signal-alert], Corner)",
-  "inputs": 4,
-  "outputs": 1,
-  "entities": 12,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-1_4x4_UT_Lane_virtual-signal_signal-alert_Corner.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   2
-  ],
-  "label": "4-3 [6x6]",
-  "label_clean": "4-3 [6x6]",
-  "inputs": 4,
-  "outputs": 3,
-  "entities": 31,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-3_6x6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   3
-  ],
-  "label": "4-3 [7x7] (UT)",
-  "label_clean": "4-3 [7x7] (UT)",
-  "inputs": 4,
-  "outputs": 3,
-  "entities": 39,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-3_7x7_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   4
-  ],
-  "label": "4-4 [4x8] (UT)",
-  "label_clean": "4-4 [4x8] (UT)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 32,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_4x8_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   5
-  ],
-  "label": "4-4 [6x7] (UT, Corner, Compact-Tall)",
-  "label_clean": "4-4 [6x7] (UT, Corner, Compact-Tall)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 34,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_6x7_UT_Corner_Compact-Tall.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   6
-  ],
-  "label": "4-4 [8x5] (UT, Corner, Compact-Wide)",
-  "label_clean": "4-4 [8x5] (UT, Corner, Compact-Wide)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 38,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_8x5_UT_Corner_Compact-Wide.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   7
-  ],
-  "label": "4-4 [6x8] (Lane, Straight, [virtual-signal=signal-alert][virtual-signal=signal-radioactivity])",
-  "label_clean": "4-4 [6x8] (Lane, Straight, [signal-alert][signal-radioactivity])",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 38,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_6x8_Lane_Straight_virtual-signal_signal-alert_virtual-signal_signal-radioactivity.txt",
-  "desc": "Warning: Beware unconnected EW underground belts."
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   8
-  ],
-  "label": "4-4 [4x13] (Lane, Inline, [virtual-signal=signal-radioactivity])",
-  "label_clean": "4-4 [4x13] (Lane, Inline, [signal-radioactivity])",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 51,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-4_4x13_Lane_Inline_virtual-signal_signal-radioactivity.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   9
-  ],
-  "label": "4-5 [8x9]",
-  "label_clean": "4-5 [8x9]",
-  "inputs": 4,
-  "outputs": 5,
-  "entities": 57,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-5_8x9.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   10
-  ],
-  "label": "4-6 [8x10] (UT)",
-  "label_clean": "4-6 [8x10] (UT)",
-  "inputs": 4,
-  "outputs": 6,
-  "entities": 71,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-6_8x10_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   11
-  ],
-  "label": "4-8 [8x10] (UT)",
-  "label_clean": "4-8 [8x10] (UT)",
-  "inputs": 4,
-  "outputs": 8,
-  "entities": 66,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-8_8x10_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   12
-  ],
-  "label": "4-10 [10x7] (Unbalanced, Fractal)",
-  "label_clean": "4-10 [10x7] (Unbalanced, Fractal)",
-  "inputs": 4,
-  "outputs": 10,
-  "entities": 61,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-10_10x7_Unbalanced_Fractal.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   0,
-   3,
-   13
-  ],
-  "label": "4-10 [12x15] (UT)",
-  "label_clean": "4-10 [12x15] (UT)",
-  "inputs": 4,
-  "outputs": 10,
-  "entities": 155,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-10_12x15_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   0
-  ],
-  "label": "5-2 [5x7]",
-  "label_clean": "5-2 [5x7]",
-  "inputs": 5,
-  "outputs": 2,
-  "entities": 31,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-2_5x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   1
-  ],
-  "label": "5-3 [8x8]",
-  "label_clean": "5-3 [8x8]",
-  "inputs": 5,
-  "outputs": 3,
-  "entities": 57,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-3_8x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   2
-  ],
-  "label": "5-5 [7x10]",
-  "label_clean": "5-5 [7x10]",
-  "inputs": 5,
-  "outputs": 5,
-  "entities": 62,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-5_7x10.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   3
-  ],
-  "label": "5-5 [5x15] (Inline)",
-  "label_clean": "5-5 [5x15] (Inline)",
-  "inputs": 5,
-  "outputs": 5,
-  "entities": 68,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-5_5x15_Inline.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   4
-  ],
-  "label": "5-9 [9x16] ([item=turbo-transport-belt]+)",
-  "label_clean": "5-9 [9x16] ([turbo-transport-belt]+)",
-  "inputs": 5,
-  "outputs": 9,
-  "entities": 115,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-9_9x16_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "5-X"
-  ],
-  "index_path": [
-   0,
-   4,
-   5
-  ],
-  "label": "5-10 [10x11] (Fractal, Unbalanced)",
-  "label_clean": "5-10 [10x11] (Fractal, Unbalanced)",
-  "inputs": 5,
-  "outputs": 10,
-  "entities": 79,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__5-X__5-10_10x11_Fractal_Unbalanced.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   0
-  ],
-  "label": "6-1 [6x5] (UT)",
-  "label_clean": "6-1 [6x5] (UT)",
-  "inputs": 6,
-  "outputs": 1,
-  "entities": 21,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-1_6x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   1
-  ],
-  "label": "6-3 [7x5]",
-  "label_clean": "6-3 [7x5]",
-  "inputs": 6,
-  "outputs": 3,
-  "entities": 30,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-3_7x5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   2
-  ],
-  "label": "6-6 [7x10] ([item=turbo-transport-belt]+)",
-  "label_clean": "6-6 [7x10] ([turbo-transport-belt]+)",
-  "inputs": 6,
-  "outputs": 6,
-  "entities": 68,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-6_7x10_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   3
-  ],
-  "label": "6-6 [9x13] (Lane)",
-  "label_clean": "6-6 [9x13] (Lane)",
-  "inputs": 6,
-  "outputs": 6,
-  "entities": 102,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-6_9x13_Lane.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   4
-  ],
-  "label": "6-7 [9x13]",
-  "label_clean": "6-7 [9x13]",
-  "inputs": 6,
-  "outputs": 7,
-  "entities": 96,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-7_9x13.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   5
-  ],
-  "label": "6-8 [8x11] (Mid, [item=turbo-transport-belt]+)",
-  "label_clean": "6-8 [8x11] (Mid, [turbo-transport-belt]+)",
-  "inputs": 6,
-  "outputs": 8,
-  "entities": 78,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-8_8x11_Mid_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "6-X"
-  ],
-  "index_path": [
-   0,
-   5,
-   6
-  ],
-  "label": "6-9 [9x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "6-9 [9x14] ([turbo-transport-belt]+)",
-  "inputs": 6,
-  "outputs": 9,
-  "entities": 101,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__6-X__6-9_9x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   0
-  ],
-  "label": "7-2 [7x5]",
-  "label_clean": "7-2 [7x5]",
-  "inputs": 7,
-  "outputs": 2,
-  "entities": 34,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-2_7x5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   1
-  ],
-  "label": "7-3 [9x8]",
-  "label_clean": "7-3 [9x8]",
-  "inputs": 7,
-  "outputs": 3,
-  "entities": 53,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-3_9x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   2
-  ],
-  "label": "7-5 [9x13]",
-  "label_clean": "7-5 [9x13]",
-  "inputs": 7,
-  "outputs": 5,
-  "entities": 97,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-5_9x13.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   3
-  ],
-  "label": "7-6 [9x13]",
-  "label_clean": "7-6 [9x13]",
-  "inputs": 7,
-  "outputs": 6,
-  "entities": 96,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-6_9x13.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   4
-  ],
-  "label": "7-8 [9x13] ([item=turbo-transport-belt]+)",
-  "label_clean": "7-8 [9x13] ([turbo-transport-belt]+)",
-  "inputs": 7,
-  "outputs": 8,
-  "entities": 98,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-8_9x13_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   5
-  ],
-  "label": "7-8 [8x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "7-8 [8x14] ([turbo-transport-belt]+)",
-  "inputs": 7,
-  "outputs": 8,
-  "entities": 97,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-8_8x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "7-X"
-  ],
-  "index_path": [
-   0,
-   6,
-   6
-  ],
-  "label": "7-9 [12x16] ([item=turbo-transport-belt]+)",
-  "label_clean": "7-9 [12x16] ([turbo-transport-belt]+)",
-  "inputs": 7,
-  "outputs": 9,
-  "entities": 168,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__7-X__7-9_12x16_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   0
-  ],
-  "label": "8-1 [8x4] (UT, Lane[virtual-signal=signal-alert])",
-  "label_clean": "8-1 [8x4] (UT, Lane[signal-alert])",
-  "inputs": 8,
-  "outputs": 1,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-1_8x4_UT_Lane_virtual-signal_signal-alert.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   1
-  ],
-  "label": "8-2 [8x4] (Lane[virtual-signal=signal-alert])",
-  "label_clean": "8-2 [8x4] (Lane[signal-alert])",
-  "inputs": 8,
-  "outputs": 2,
-  "entities": 27,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-2_8x4_Lane_virtual-signal_signal-alert.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   2
-  ],
-  "label": "8-3 [8x8]",
-  "label_clean": "8-3 [8x8]",
-  "inputs": 8,
-  "outputs": 3,
-  "entities": 47,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-3_8x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   3
-  ],
-  "label": "8-5 [8x12]",
-  "label_clean": "8-5 [8x12]",
-  "inputs": 8,
-  "outputs": 5,
-  "entities": 83,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-5_8x12.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   4
-  ],
-  "label": "8-5 [8x13] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-5 [8x13] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 5,
-  "entities": 89,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-5_8x13_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   5
-  ],
-  "label": "8-6 [8x11]",
-  "label_clean": "8-6 [8x11]",
-  "inputs": 8,
-  "outputs": 6,
-  "entities": 76,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-6_8x11.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   6
-  ],
-  "label": "8-8 [8x15] (Fractal)",
-  "label_clean": "8-8 [8x15] (Fractal)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 114,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_8x15_Fractal.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   7
-  ],
-  "label": "8-8 [8x16] (UT, [item=turbo-transport-belt]+)",
-  "label_clean": "8-8 [8x16] (UT, [turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 118,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_8x16_UT_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   8
-  ],
-  "label": "8-8 [11x8] (Edge-In)",
-  "label_clean": "8-8 [11x8] (Edge-In)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 77,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_11x8_Edge-In.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   9
-  ],
-  "label": "8-8 [11x8] (Split-2)",
-  "label_clean": "8-8 [11x8] (Split-2)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 79,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_11x8_Split-2.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   10
-  ],
-  "label": "8-8 [10x15] (UT, Split-2, [item=turbo-transport-belt]+)",
-  "label_clean": "8-8 [10x15] (UT, Split-2, [turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 127,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_10x15_UT_Split-2_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   11
-  ],
-  "label": "8-8 [12x8] (Split-4)",
-  "label_clean": "8-8 [12x8] (Split-4)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 78,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-8_12x8_Split-4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   12
-  ],
-  "label": "8-9 [11x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-9 [11x14] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 9,
-  "entities": 137,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-9_11x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   13
-  ],
-  "label": "8-9 [9x17] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-9 [9x17] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 9,
-  "entities": 131,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-9_9x17_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   14
-  ],
-  "label": "8-10 [10x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-10 [10x14] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 10,
-  "entities": 124,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-10_10x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   15
-  ],
-  "label": "8-12 [12x12] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-12 [12x12] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 12,
-  "entities": 127,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-12_12x12_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   0,
-   7,
-   16
-  ],
-  "label": "8-16 [16x8]",
-  "label_clean": "8-16 [16x8]",
-  "inputs": 8,
-  "outputs": 16,
-  "entities": 103,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-16_16x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   0
-  ],
-  "label": "9-2 [10x7]",
-  "label_clean": "9-2 [10x7]",
-  "inputs": 9,
-  "outputs": 2,
-  "entities": 51,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-2_10x7.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   1
-  ],
-  "label": "9-3 [10x8]",
-  "label_clean": "9-3 [10x8]",
-  "inputs": 9,
-  "outputs": 3,
-  "entities": 64,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-3_10x8.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   2
-  ],
-  "label": "9-4 [9x10]",
-  "label_clean": "9-4 [9x10]",
-  "inputs": 9,
-  "outputs": 4,
-  "entities": 79,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-4_9x10.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   3
-  ],
-  "label": "9-6 [9x14] ([item=turbo-transport-belt]+)",
-  "label_clean": "9-6 [9x14] ([turbo-transport-belt]+)",
-  "inputs": 9,
-  "outputs": 6,
-  "entities": 101,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-6_9x14_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "9-X"
-  ],
-  "index_path": [
-   0,
-   8,
-   4
-  ],
-  "label": "9-12 [12x16]",
-  "label_clean": "9-12 [12x16]",
-  "inputs": 9,
-  "outputs": 12,
-  "entities": 154,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__9-X__9-12_12x16.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "10-X"
-  ],
-  "index_path": [
-   0,
-   9,
-   0
-  ],
-  "label": "10-10 [11x15] ([item=turbo-transport-belt]+)",
-  "label_clean": "10-10 [11x15] ([turbo-transport-belt]+)",
-  "inputs": 10,
-  "outputs": 10,
-  "entities": 147,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__10-X__10-10_11x15_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "10-X"
-  ],
-  "index_path": [
-   0,
-   9,
-   1
-  ],
-  "label": "10-12 [10x20] ([item=turbo-transport-belt]+)",
-  "label_clean": "10-12 [10x20] ([turbo-transport-belt]+)",
-  "inputs": 10,
-  "outputs": 12,
-  "entities": 199,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__10-X__10-12_10x20_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   0
-  ],
-  "label": "16-8 [16x8] (Split-2)",
-  "label_clean": "16-8 [16x8] (Split-2)",
-  "inputs": 16,
-  "outputs": 8,
-  "entities": 103,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-8_16x8_Split-2.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   1
-  ],
-  "label": "16-16 [16x26] (Fractal, [item=turbo-transport-belt]+)",
-  "label_clean": "16-16 [16x26] (Fractal, [turbo-transport-belt]+)",
-  "inputs": 16,
-  "outputs": 16,
-  "entities": 394,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-16_16x26_Fractal_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Primary Balancers",
-   "16-X"
-  ],
-  "index_path": [
-   0,
-   10,
-   2
-  ],
-  "label": "16-16 [16x29] (UT, [item=turbo-transport-belt]+)",
-  "label_clean": "16-16 [16x29] (UT, [turbo-transport-belt]+)",
-  "inputs": 16,
-  "outputs": 16,
-  "entities": 422,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__16-X__16-16_16x29_UT_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "FULL Lane Balancers"
-  ],
-  "index_path": [
-   1,
-   0,
-   0
-  ],
-  "label": "4-4 [8x18] (UT, Lane)",
-  "label_clean": "4-4 [8x18] (UT, Lane)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 106,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__FULL_Lane_Balancers__4-4_8x18_UT_Lane.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "FULL Lane Balancers"
-  ],
-  "index_path": [
-   1,
-   0,
-   1
-  ],
-  "label": "8-8 [16x31] (UT, Lane)",
-  "label_clean": "8-8 [16x31] (UT, Lane)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 323,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__FULL_Lane_Balancers__8-8_16x31_UT_Lane.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "FULL Lane Balancers"
-  ],
-  "index_path": [
-   1,
-   0,
-   2
-  ],
-  "label": "16-16 [30x40] (UT, Lane)",
-  "label_clean": "16-16 [30x40] (UT, Lane)",
-  "inputs": 16,
-  "outputs": 16,
-  "entities": 785,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__FULL_Lane_Balancers__16-16_30x40_UT_Lane.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "Lane Splitters"
-  ],
-  "index_path": [
-   1,
-   1,
-   0
-  ],
-  "label": "2+2=4 [4x8] (Edge-Slim)",
-  "label_clean": "2+2=4 [4x8] (Edge-Slim)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 26,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Lane_Splitters__2_2_4_4x8_Edge-Slim.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "Lane Splitters"
-  ],
-  "index_path": [
-   1,
-   1,
-   1
-  ],
-  "label": "2+2=4 [6x5] (Edge-Wide)",
-  "label_clean": "2+2=4 [6x5] (Edge-Wide)",
-  "inputs": 4,
-  "outputs": 4,
-  "entities": 32,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Lane_Splitters__2_2_4_6x5_Edge-Wide.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "Lane Splitters"
-  ],
-  "index_path": [
-   1,
-   1,
-   2
-  ],
-  "label": "4+4=8 [10x7] (Edge)",
-  "label_clean": "4+4=8 [10x7] (Edge)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 56,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Lane_Splitters__4_4_8_10x7_Edge.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "Lane Splitters"
-  ],
-  "index_path": [
-   1,
-   1,
-   3
-  ],
-  "label": "4+4=8 [8x16] (Inline)",
-  "label_clean": "4+4=8 [8x16] (Inline)",
-  "inputs": 8,
-  "outputs": 8,
-  "entities": 116,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__Lane_Splitters__4_4_8_8x16_Inline.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   1,
-   2,
-   0
-  ],
-  "label": "1-12 [12x5] (UT)",
-  "label_clean": "1-12 [12x5] (UT)",
-  "inputs": 1,
-  "outputs": 12,
-  "entities": 36,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-12_12x5_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "1-X"
-  ],
-  "index_path": [
-   1,
-   2,
-   1
-  ],
-  "label": "1-16 [16x4] (UT)",
-  "label_clean": "1-16 [16x4] (UT)",
-  "inputs": 1,
-  "outputs": 16,
-  "entities": 48,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__1-X__1-16_16x4_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   1,
-   3,
-   0
-  ],
-  "label": "2-12 [12x6]",
-  "label_clean": "2-12 [12x6]",
-  "inputs": 2,
-  "outputs": 12,
-  "entities": 56,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-12_12x6.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "2-X"
-  ],
-  "index_path": [
-   1,
-   3,
-   1
-  ],
-  "label": "2-16 [16x4]",
-  "label_clean": "2-16 [16x4]",
-  "inputs": 2,
-  "outputs": 16,
-  "entities": 49,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__2-X__2-16_16x4.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   1,
-   4,
-   0
-  ],
-  "label": "4-12 [12x14] (UT)",
-  "label_clean": "4-12 [12x14] (UT)",
-  "inputs": 4,
-  "outputs": 12,
-  "entities": 131,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-12_12x14_UT.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "4-X"
-  ],
-  "index_path": [
-   1,
-   4,
-   1
-  ],
-  "label": "4-16 [16x5]",
-  "label_clean": "4-16 [16x5]",
-  "inputs": 4,
-  "outputs": 16,
-  "entities": 67,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__4-X__4-16_16x5.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "8-X"
-  ],
-  "index_path": [
-   1,
-   6,
-   0
-  ],
-  "label": "8-13 [15x13] ([item=turbo-transport-belt]+)",
-  "label_clean": "8-13 [15x13] ([turbo-transport-belt]+)",
-  "inputs": 8,
-  "outputs": 13,
-  "entities": 156,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__8-X__8-13_15x13_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   0
-  ],
-  "label": "12-4 [12x14] (UT, [item=turbo-transport-belt]+)",
-  "label_clean": "12-4 [12x14] (UT, [turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 4,
-  "entities": 131,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-4_12x14_UT_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   1
-  ],
-  "label": "12-8 [12x18] ([item=turbo-transport-belt]+)",
-  "label_clean": "12-8 [12x18] ([turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 8,
-  "entities": 148,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-8_12x18_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   2
-  ],
-  "label": "12-10 [12x20] ([item=turbo-transport-belt]+)",
-  "label_clean": "12-10 [12x20] ([turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 10,
-  "entities": 199,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-10_12x20_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   3
-  ],
-  "label": "12-12 [14x15] ([item=turbo-transport-belt]+)",
-  "label_clean": "12-12 [14x15] ([turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 12,
-  "entities": 183,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-12_14x15_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   4
-  ],
-  "label": "12-12 [22x12] (Split-3)",
-  "label_clean": "12-12 [22x12] (Split-3)",
-  "inputs": 12,
-  "outputs": 12,
-  "entities": 216,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-12_22x12_Split-3.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "12-X"
-  ],
-  "index_path": [
-   1,
-   8,
-   5
-  ],
-  "label": "12-25 [25x17] ([item=turbo-transport-belt]+)",
-  "label_clean": "12-25 [25x17] ([turbo-transport-belt]+)",
-  "inputs": 12,
-  "outputs": 25,
-  "entities": 329,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__12-X__12-25_25x17_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "15-X"
-  ],
-  "index_path": [
-   1,
-   9,
-   0
-  ],
-  "label": "15-10 [15x17]",
-  "label_clean": "15-10 [15x17]",
-  "inputs": 15,
-  "outputs": 10,
-  "entities": 206,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__15-X__15-10_15x17.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   0
-  ],
-  "label": "20-15 ([item=turbo-transport-belt]+)",
-  "label_clean": "20-15 ([turbo-transport-belt]+)",
-  "inputs": 20,
-  "outputs": 15,
-  "entities": 277,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___20-15_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   1
-  ],
-  "label": "20-20 [24x39] ([item=turbo-transport-belt]+)",
-  "label_clean": "20-20 [24x39] ([turbo-transport-belt]+)",
-  "inputs": 20,
-  "outputs": 20,
-  "entities": 799,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___20-20_24x39_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   2
-  ],
-  "label": "24-24 [44x23] (Split-6, [item=turbo-transport-belt]+)",
-  "label_clean": "24-24 [44x23] (Split-6, [turbo-transport-belt]+)",
-  "inputs": 24,
-  "outputs": 24,
-  "entities": 723,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___24-24_44x23_Split-6_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   3
-  ],
-  "label": "24-24 [24x43] (Inline, [item=turbo-transport-belt]+)",
-  "label_clean": "24-24 [24x43] (Inline, [turbo-transport-belt]+)",
-  "inputs": 24,
-  "outputs": 24,
-  "entities": 917,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___24-24_24x43_Inline_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   4
-  ],
-  "label": "32-32 [32x25] ([item=turbo-transport-belt]+)",
-  "label_clean": "32-32 [32x25] ([turbo-transport-belt]+)",
-  "inputs": 32,
-  "outputs": 32,
-  "entities": 727,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___32-32_32x25_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   5
-  ],
-  "label": "32-32 [32x47] (Fractal, [item=turbo-transport-belt]+)",
-  "label_clean": "32-32 [32x47] (Fractal, [turbo-transport-belt]+)",
-  "inputs": 32,
-  "outputs": 32,
-  "entities": 1380,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___32-32_32x47_Fractal_item_turbo-transport-belt.txt",
-  "desc": ""
- },
- {
-  "source": "chocpaint",
-  "book_path": [
-   "BELT BALANCER COMPENDIUM",
-   "BELT BALANCER COMPENDIUM[virtual-signal=signal-check]",
-   "Bonus Balancers",
-   "OVERSIZE (20-128)"
-  ],
-  "index_path": [
-   1,
-   10,
-   6
-  ],
-  "label": "64-64 [64x54] ([item=turbo-transport-belt]+)",
-  "label_clean": "64-64 [64x54] ([turbo-transport-belt]+)",
-  "inputs": 64,
-  "outputs": 64,
-  "entities": 2560,
-  "belt_tiers": [
-   4
-  ],
-  "file": "blueprints/chocpaint__OVERSIZE_20-128___64-64_64x54_item_turbo-transport-belt.txt",
-  "desc": ""
  }
 ]

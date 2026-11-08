@@ -582,15 +582,15 @@
    1,
    10
   ],
-  "label": "2x7 [7x6]",
-  "label_clean": "2x7 [7x6]",
+  "label": "2-7 [7x6]",
+  "label_clean": "2-7 [7x6]",
   "inputs": 2,
   "outputs": 7,
   "entities": 36,
   "belt_tiers": [
    4
   ],
-  "file": "blueprints/chocpaint__2_to_x__2x7_7x6.txt",
+  "file": "blueprints/chocpaint__2_to_x__2-7_7x6.txt",
   "desc": ""
  },
  {

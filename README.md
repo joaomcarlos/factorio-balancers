@@ -19,13 +19,13 @@ footprints, lane versions, sizes raynquist doesn't carry — sit next to the
 canonical designs in the same sections, marked by their `[WxH]` tags.
 
 <p align="center">
-  <a href="https://factoriobin.com/post/wxaabu"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/2zezo8"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 
 | | |
 |---|---|
-| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/wxaabu)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
+| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/2zezo8)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
 | Books individually | [raynquist turbo](strings/raynquist-fall-2025-turbo.txt) · [chocpaint turbo](strings/chocpaint-v3077-turbo.txt) · [raynquist original](strings/raynquist-fall-2025-original.txt) · [chocpaint original](strings/chocpaint-v3077-original.txt) |
 | Blueprints | 293 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
 | Renders | Every balancer rendered below (Factorio 2.1.11 sprites, dirt terrain) |
@@ -99,7 +99,7 @@ raynquist canonical designs first per ratio, ChocPaint compendium variants ([WxH
 | <img src="images/raynquist__2_to_x__2-5_balancer.jpg" width="360"> | **2-5 balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-5_balancer.txt) | **2 → 5**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/raynquist__2_to_x__2-6_balancer.jpg" width="360"> | **2-6 balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-6_balancer.txt) | **2 → 6**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/raynquist__2_to_x__2-7_balancer.jpg" width="360"> | **2-7 balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-7_balancer.txt) | **2 → 7**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
-| <img src="images/chocpaint__2_to_x__2x7_7x6.jpg" width="360"> | **2x7 [7x6]**<br>[`bp`](blueprints/chocpaint__2_to_x__2x7_7x6.txt) · chocpaint | **2 → 7**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
+| <img src="images/chocpaint__2_to_x__2-7_7x6.jpg" width="360"> | **2-7 [7x6]**<br>[`bp`](blueprints/chocpaint__2_to_x__2-7_7x6.txt) · chocpaint | **2 → 7**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/raynquist__2_to_x__2-8_TU_balancer.jpg" width="360"> | **2-8 TU balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-8_TU_balancer.txt) | **2 → 8**<br>2 stacked turbo belts<br>≈ 480 items/s | Throughput-unlimited (TU) balancers always provide full throughput. Regular balancers are only guaranteed to provide full throughput when all inputs or all outputs are utilized. |
 | <img src="images/raynquist__2_to_x__2-8_balancer.jpg" width="360"> | **2-8 balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-8_balancer.txt) | **2 → 8**<br>2 stacked turbo belts<br>≈ 480 items/s | — |
 | <img src="images/raynquist__2_to_x__2-9_balancer.jpg" width="360"> | **2-9 balancer**<br>[`bp`](blueprints/raynquist__2_to_x__2-9_balancer.txt) | **2 → 9**<br>2 stacked turbo belts<br>≈ 480 items/s | — |

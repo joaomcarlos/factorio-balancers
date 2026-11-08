@@ -15,13 +15,13 @@ latest version on top. ChocPaint-unique variants (different footprints, lane
 versions, sizes raynquist doesn't carry) all remain in the lower book.
 
 <p align="center">
-  <a href="https://factoriobin.com/post/80v0qc"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
+  <a href="https://factoriobin.com/post/4z6rne"><img src="images/raynquist__8_to_x__8-8_balancer.jpg" width="520" alt="8 → 8 turbo balancer"></a><br>
   <i>The classic 8 → 8, turbo'd.</i>
 </p>
 
 | | |
 |---|---|
-| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/80v0qc)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
+| Download | **[Combined book (FactorioBin)](https://factoriobin.com/post/4z6rne)** · [`belt-balancers-turbo.book.txt`](belt-balancers-turbo.book.txt) |
 | Books individually | [raynquist turbo](strings/raynquist-fall-2025-turbo.txt) · [chocpaint turbo](strings/chocpaint-v3077-turbo.txt) · [raynquist original](strings/raynquist-fall-2025-original.txt) · [chocpaint original](strings/chocpaint-v3077-original.txt) |
 | Blueprints | 303 unique balancers as individual strings in [`blueprints/`](blueprints/), decoded JSON in [`json/`](json/) |
 | Renders | Every balancer rendered below (Factorio 2.1.11 sprites, dirt terrain) |
